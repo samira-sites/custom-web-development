@@ -485,7 +485,8 @@
             background:
 
             linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
-            url("assets/images/desktop-hero-bg.png") center / cover no-repeat fixed !important;
+            url("assets/images/desktop-hero-bg.png") center / cover no-repeat;
+          
           min-height: 100vh;
       
           display: flex;
