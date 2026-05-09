@@ -115,6 +115,8 @@ ul {
 
 .btn-secondary:hover {
   background: rgba(243, 119, 4, 0.05);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(244, 136, 41, 0.221);
 }
 
 /* =========================
@@ -267,7 +269,59 @@ ul {
   gap: 1rem;
   justify-content: center;
 }
+/* =========================
+    Premium Sliding Section
+  ========================= */
 
+.slider-section {
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(300px * 12);
+  animation: scroll 60s linear infinite;
+  gap: 1rem;
+}
+
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 0.5px;
+  padding: 1rem;
+
+box-shadow: 0 3px 30px rgba(255, 166, 0, 0.142);
+
+}
+
+.slide i {
+  font-size: 20px;
+  color: var(--accent);
+}
+
+/* Smooth infinite animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause on hover */
+.slide-track:hover {
+  animation-play-state: paused;
+}
 /* =========================
      SERVICES
   ========================= */
