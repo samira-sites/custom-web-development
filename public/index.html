@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Service Website</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar container">
+      <img src="assets/images/logo2.png" class="logo" alt="">
+
+      <div id="burger" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-tag reveal">Custom Website Development</p>
+
+          <h1 class="reveal">From Idea To Live Website</h1>
+
+          <p class="hero-description reveal">
+            Modern websites designed for businesses, startups,
+            and personal brands that want clean design,
+            strong performance, and a professional online presence.
+          </p>
+
+          <div class="hero-buttons reveal-left">
+            <a href="#services" class="btn btn-primary">View Services</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-tag reveal">Services</p>
+          <h2 class="reveal">Designed For Modern Brands</h2>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card reveal">
+            <h3>Starter Website</h3>
+
+            <p>
+              Perfect for personal brands and small businesses
+              that need a clean and professional website.
+            </p>
+
+            <ul>
+              <li>Responsive Design</li>
+              <li>Fast Loading</li>
+              <li>Contact Form</li>
+              <li>Modern Layout</li>
+            </ul>
+
+            <a href="#contact" class="btn btn-primary reveal-left">Get Started</a>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Pro Website</h3>
+
+            <p>
+              Advanced websites for businesses looking for
+              premium UI, scalability, and strong branding.
+            </p>
+
+            <ul>
+              <li>Custom UI/UX</li>
+              <li>Animations</li>
+              <li>SEO Structure</li>
+              <li>Optimized Performance</li>
+            </ul>
+
+            <a href="#contact" class="btn btn-primary reveal-left">Get Started</a>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Add-ons</h3>
+
+            <p>
+              Enhance your website with additional features
+              and integrations tailored to your needs.
+            </p>
+
+            <ul>
+              <li>WhatsApp Integration</li>
+              <li>Booking System</li>
+              <li>Custom Forms</li>
+              <li>Analytics Setup</li>
+            </ul>
+
+            <a href="#contact" class="btn btn-primary reveal-left">Learn More</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-tag reveal">Projects</p>
+          <h2 class="reveal">Selected Work</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-image"></div>
+
+            <div class="project-content">
+              <h3>Business Landing Page</h3>
+
+              <p>
+                Minimal responsive website focused on conversion
+                and premium user experience.
+              </p>
+
+              <a href="#" class="btn btn-secondary reveal-left">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image"></div>
+
+            <div class="project-content">
+              <h3>Startup Portfolio</h3>
+
+              <p>
+                Modern portfolio website with smooth layouts,
+                performance optimization, and clean structure.
+              </p>
+
+              <a href="#" class="btn btn-secondary reveal-left">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image"></div>
+
+            <div class="project-content">
+              <h3>E-commerce UI</h3>
+
+              <p>
+                Elegant online store interface designed with
+                simplicity and accessibility in mind.
+              </p>
+
+              <a href="#" class="btn btn-secondary reveal-left">View Project</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <p class="section-tag reveal">Contact</p>
+          <h2 class="reveal">Let's Build Something Great</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- FORM -->
+          <form class="contact-form reveal">
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="6" placeholder="Your Message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary reveal-left" style="width: 100%;">
+              Send Message
+            </button>
+
+          </form>
+
+          <!-- CONTACT INFO -->
+          <aside class="contact-info">
+
+            <div class="info-card">
+              <h3 class="reveal">Contact Details</h3>
+
+              <ul class="reveal">
+                <li>Email: hello@email.com</li>
+                <li>WhatsApp: +965 0000 0000</li>
+                <li>LinkedIn: linkedin.com/in/yourname</li>
+                <li>Location: Kuwait</li>
+              </ul>
+            </div>
+
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <p>© 2026 Studio. All rights reserved.</p>
+
+      <ul class="footer-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
