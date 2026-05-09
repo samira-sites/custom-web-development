@@ -215,7 +215,7 @@ ul {
   ========================= */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../assets/images/mobile-hero-bg.png") center / cover no-repeat;
+    url("../assets/images/mobile-hero-bg.webp") center / cover no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -476,20 +476,19 @@ ul {
   .hero{
     background:
       linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("../assets/images/ipad-hero.pngg");
+      url("../assets/images/ipad-hero.webp");
       min-height: 100vh;
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
   }
-}
 
 /* Desktop */
 @media (min-width: 1025px) {
   .hero {
     background:
       linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("../assets/images/desktop-hero-bg.png") center / cover no-repeat;
+      url("../assets/images/desktop-hero-bg.webp") center / cover no-repeat;
 
     min-height: 100vh;
 
