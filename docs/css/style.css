@@ -482,6 +482,7 @@ ul {
     background-position: top center;
     background-repeat: no-repeat;
   }
+}
 
 /* Desktop */
 @media (min-width: 1025px) {
@@ -498,7 +499,7 @@ ul {
 
     text-align: center;
   }
-}
+
   .hero-content {
     width: 100%;
     display: flex;
