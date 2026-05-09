@@ -470,22 +470,8 @@ ul {
   color: var(--accent);
 }
 
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .hero{
-    background:
-      linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("../assets/images/ipad-hero.webp");
-      min-height: 100vh;
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-  }
-}
-
 /* Desktop */
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   .hero {
     background:
       linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
