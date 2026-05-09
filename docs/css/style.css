@@ -474,10 +474,10 @@ ul {
      DESKTOP
   ========================= */
 /* Tablet */
-@media (min-width: 768px) {
-  .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("../assets/images/ipad-hero-bg.png") center / cover no-repeat;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero{
+    background-size: contain;
+    background-position: top center;
   }
 }
 @media (min-width: 768px) {
