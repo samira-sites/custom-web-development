@@ -397,8 +397,9 @@
     border: 1px solid var(--border);
   
     border-radius: var(--radius);
-    
-  box-shadow: 0 2px 4px;
+    box-shadow:
+    0 0 20px rgba(254, 141, 20, 0.15),
+    0 0 60px rgba(254, 141, 20, 0.08);
     padding: 2rem;
   }
   
@@ -415,10 +416,10 @@
   .form-group textarea {
     width: 100%;
   
-    background: transparent;
+    background: #11111169;
     color: var(--white);
   
-    border: 1px solid rgba(255, 166, 0, 0.438);
+    border: 1px solid rgba(255, 166, 0, 0.155);
   
     border-radius: var(--radius);
   
@@ -485,7 +486,7 @@
             background:
 
             linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
-            url("assets/images/desktop-hero-bg.png") center / cover no-repeat;
+            url("assets/images/hero-bg.png") center / cover no-repeat;
           
           min-height: 100vh;
       
