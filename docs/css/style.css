@@ -305,8 +305,7 @@ ul {
   letter-spacing: 0.5px;
   padding: 1rem;
 
-box-shadow: 0 3px 30px rgba(255, 166, 0, 0.142);
-
+  box-shadow: 0 3px 30px rgba(255, 166, 0, 0.142);
 }
 
 .slide i {
@@ -534,8 +533,7 @@ box-shadow: 0 3px 30px rgba(255, 166, 0, 0.142);
 /* Desktop */
 @media (min-width: 768px) {
   .hero {
-    background:
-      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
       url("../assets/images/desktop-hero-bg.webp") center / cover no-repeat;
 
     min-height: 100vh;
@@ -570,13 +568,12 @@ box-shadow: 0 3px 30px rgba(255, 166, 0, 0.142);
     display: flex;
     align-items: center;
     position: static;
-
     width: auto;
-
+    visibility: visible;
     background: transparent;
-
+    box-shadow: none;
     flex-direction: row;
-
+    gap: 2rem;
     padding: 0;
 
     opacity: 1;
