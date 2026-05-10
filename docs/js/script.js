@@ -10,6 +10,14 @@ menuToggle.addEventListener("click", () => {
 const sections = document.querySelectorAll("section");
 const navItems = document.querySelectorAll(".nav-links a");
 
+// Close Menu When Clicking Nav Link
+navItems.forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+    menuToggle.classList.remove("active");
+  });
+});
+
 window.addEventListener("scroll", () => {
   let current = "";
 
