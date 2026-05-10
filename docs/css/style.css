@@ -626,7 +626,7 @@ ul {
 .form-group textarea {
   width: 100%;
 
-  background: #11111169;
+  background: #fefefe;
   color: var(--white);
 
   border: 1px solid rgba(255, 166, 0, 0.155);
