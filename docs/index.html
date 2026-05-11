@@ -2,50 +2,95 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Basic Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Primary SEO -->
   <title>Custom Website Development | Modern Websites That Get You Clients</title>
 
-  <meta name="description" content="Need a website? I build fast, modern, mobile-friendly websites that help businesses look professional, build trust, and get more customers online." />
+  <meta name="description" content="Need a website? I build fast, modern, mobile-friendly websites for businesses and startups that look professional, build trust, and bring real customers online.">
 
-  <meta name="keywords" content="custom website development, business website, web designer, modern website, responsive website, small business website, portfolio website, startup website" />
+  <meta name="author" content="Samira Omar">
+  <meta name="robots" content="index, follow">
 
-  <meta name="author" content="Samira Omar" />
-  <meta name="robots" content="index, follow" />
+  <!-- Canonical -->
+  <link rel="canonical" href="https://samira-sites.github.io/custom-web-development/">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
+  <!-- Theme -->
+  <meta name="theme-color" content="#fe9c0a">
 
-  <meta property="og:title" content="Get a Modern Website That Brings You Real Clients" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Get a Modern Website That Brings You Real Clients">
 
-  <meta property="og:description" content="No website yet? I design fast, clean, mobile-friendly websites that help your business stand out, build trust instantly, and convert visitors into customers." />
+  <meta property="og:description" content="No website yet? I design fast, clean, mobile-friendly websites that help your business stand out, build trust instantly, and convert visitors into customers.">
 
-  <meta property="og:image" content="https://samira-sites.github.io/custom-web-development/assets/images/preview.webp" />
+  <meta property="og:site_name" content="Samira Sites">
 
-  <meta property="og:url" content="https://samira-sites.github.io/custom-web-development/" />
+  <meta property="og:url" content="https://samira-sites.github.io/custom-web-development/">
 
-  <meta property="og:site_name" content="Samira Sites" />
-  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website">
+
+  <meta property="og:locale" content="en_US">
+
+  <meta property="og:image" content="https://samira-sites.github.io/custom-web-development/assets/images/preview.webp">
+
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta property="og:image:alt" content="Custom website development preview for businesses">
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary_large_image">
 
-  <meta name="twitter:title" content="Get a Modern Website That Brings You Real Clients" />
+  <meta name="twitter:title" content="Get a Modern Website That Brings You Real Clients">
 
-  <meta name="twitter:description" content="Fast, clean, mobile-friendly websites that help businesses look professional and get more customers online." />
+  <meta name="twitter:description" content="Fast, clean, mobile-friendly websites that help businesses look professional and get more customers online.">
 
-  <meta name="twitter:image" content="https://samira-sites.github.io/custom-web-development/assets/images/preview.webp" />
+  <meta name="twitter:image" content="https://samira-sites.github.io/custom-web-development/assets/images/preview.webp">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <!-- Icons / Favicons -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/sam-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/sam-180.png">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Performance -->
+  <link rel="preload" as="image" href="assets/images/hero.webp">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
-</head>
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Theme Script -->
+  <script>
+    (function () {
+      if (localStorage.getItem("theme") === "light") {
+        document.documentElement.classList.add("light");
+      }
+    })();
+  </script>
+
+  <!-- Structured Data (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Samira Sites",
+    "url": "https://samira-sites.github.io/custom-web-development/",
+    "image": "https://samira-sites.github.io/custom-web-development/assets/images/preview.webp",
+    "description": "Custom website development services for businesses and startups.",
+    "founder": {
+      "@type": "Person",
+      "name": "Samira Omar"
+    }
+  }
+  </script>
+</head>
 <body>
 
   <!-- HEADER -->
