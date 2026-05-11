@@ -124,8 +124,12 @@ ul {
      HEADER
   ========================= */
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 1000;
   z-index: 1000;
 
   backdrop-filter: blur(14px);
@@ -229,8 +233,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
-  scroll-margin-top: 80px;
+  padding: 90px 1rem 1rem;
+  scroll-margin-top: 100px;
 }
 
 .hero-content {
@@ -363,7 +367,7 @@ ul {
 /* CARD BASE */
 .service-card {
   background: #111;
-  border-radius: 18px;
+  border-radius: var(--radius);
 
   padding: 1.5rem;
 
@@ -427,7 +431,7 @@ ul {
 
   padding: 4px 10px;
 
-  border-radius: 8px;
+  border-radius: var(--radius);
 
   font-weight: 500;
 
@@ -454,7 +458,7 @@ ul {
 /* OLD PRICE */
 .old-price {
   text-decoration: line-through;
-  color: #666;
+  color: var(--muted);
   margin-left: 8px;
   font-size: 18px;
 }
@@ -466,7 +470,7 @@ ul {
 }
 
 .desc {
-  color: #666;
+  color: #999;
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -494,7 +498,7 @@ ul {
 /* DELIVERY */
 .delivery {
   font-size: 12px;
-  color: #777;
+  color: var(--muted);
 }
 
 /* ADDONS */
@@ -506,7 +510,7 @@ ul {
 /* ADDONS TEXT */
 .service-card.addons p {
   font-size: 14px;
-  color: #555;
+  color: #999;
   margin-top: 10px;
 }
 
