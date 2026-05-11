@@ -335,8 +335,9 @@ ul {
 .slide-track:hover {
   animation-play-state: paused;
 }
-
-/* ===== SERVICES ===== */
+/* =========================
+     SERVICES
+  ========================= */
 .services {
   padding: 60px 0.75rem;
   background: var(--secondary);
@@ -607,13 +608,12 @@ ul {
 
 .contact-form,
 .info-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: #111;
 
   border: 1px solid var(--border);
 
   border-radius: var(--radius);
-  box-shadow: 0 0 20px rgba(254, 141, 20, 0.15),
-    0 0 60px rgba(254, 141, 20, 0.08);
+ 
   padding: 2rem;
 }
 
@@ -630,8 +630,8 @@ ul {
 .form-group textarea {
   width: 100%;
 
-  background: #fefefe;
-  color: var(--white);
+  background:  #fafafa;;
+  color: #111;
 
   border: 1px solid rgba(255, 166, 0, 0.155);
 
