@@ -262,9 +262,11 @@ ul {
   font-size: clamp(2.7rem, 9vw, 6rem);
   line-height: 1;
   margin-bottom: 1.5rem;
+  margin: 0 .1rem;
 }
 .hero p {
   text-align: justify;
+  margin: 0 .3rem;
 }
 
 .hero-description {
