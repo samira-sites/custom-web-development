@@ -122,7 +122,7 @@ ul {
 
 .project-btn {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.413);
-  color: var(--accent);
+
 }
 
 /* =========================
@@ -679,7 +679,7 @@ ul {
 .footer {
   background: #0f0f0f;
   color: #fff;
-  padding: 60px 20px 20px;
+  padding: 0px 1rem 0px;
   margin-top: 80px;
 }
 
@@ -738,14 +738,15 @@ ul {
   border: 1px solid rgba(255, 166, 0, 0.354);
   color: var(--black);
   text-decoration: none;
-  background: var(--accent);
+  background: var(--white);
   border-radius: var(--radius);
   font-size: clamp(0.85rem, 1.2vw, 0.95rem);
-  transition: 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .footer-btn:hover {
-  background: #fff;
+  transform: translateY(-2px);
+  background: var(--accent);
   color: #0f0f0f;
 }
 
