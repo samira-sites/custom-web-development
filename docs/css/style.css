@@ -767,7 +767,7 @@ ul {
   border: 1px solid rgba(255, 166, 0, 0.354);
   color: var(--black);
   text-decoration: none;
-  background: var(--white);
+  background: var(--accent);
   border-radius: var(--radius);
   font-size: clamp(0.85rem, 1.2vw, 0.95rem);
   transition: transform 0.3s ease;
@@ -775,7 +775,7 @@ ul {
 
 .footer-btn:hover {
   transform: translateY(-2px);
-  background: var(--accent);
+  opacity: .8;
   color: #0f0f0f;
 }
 
@@ -787,6 +787,22 @@ ul {
   border-top: 1px solid #222;
   color: #666;
   font-size: clamp(0.75rem, 1vw, 0.85rem);
+}
+
+.calendly-overlay {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendly-overlay iframe {
+  margin: 0 1rem;
+  position: relative !important;
+  width: calc(100% - 2rem) !important;
+  max-width: 600px !important;
+  height: 90vh !important;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* =========================
