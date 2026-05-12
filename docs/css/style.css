@@ -664,15 +664,44 @@ ul {
   border-color: var(--accent);
 }
 
-.info-card h3 {
-  margin-bottom: 1rem;
+
+/*-------contact details---------*/
+.info-card h3{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.info-card ul {
+  list-style: none;
+  padding: 0;
 }
 
 .info-card li {
   margin-bottom: 1rem;
-  color: var(--muted);
 }
 
+.info-card li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.info-card li i {
+  color: var(--accent);
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.info-card li a:hover {
+  color: var(--accent);
+  transform: translateX(4px);
+}
+
+.info-card li a:hover i {
+  transform: scale(1.1);
+}
 /* =========================
      FOOTER
   ========================= */
