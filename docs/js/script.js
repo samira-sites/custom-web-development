@@ -11,7 +11,7 @@ const sections = document.querySelectorAll("section");
 const navItems = document.querySelectorAll(".nav-links a");
 
 // Close Menu When Clicking Nav Link
-navItems.forEach(link => {
+navItems.forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("active");
     menuToggle.classList.remove("active");
@@ -21,7 +21,7 @@ navItems.forEach(link => {
 window.addEventListener("scroll", () => {
   let current = "";
 
-  sections.forEach(section => {
+  sections.forEach((section) => {
     const sectionTop = section.offsetTop - 120;
 
     if (scrollY >= sectionTop) {
@@ -29,7 +29,7 @@ window.addEventListener("scroll", () => {
     }
   });
 
-  navItems.forEach(link => {
+  navItems.forEach((link) => {
     link.classList.remove("active");
 
     if (link.getAttribute("href").includes(current)) {
@@ -39,15 +39,46 @@ window.addEventListener("scroll", () => {
 });
 
 // =========================
-// SCROLL REVEAL
+// FAQ TOGGLE (CLEAN FIX)
 // =========================
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("active");
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach((item) => {
+  const btn = item.querySelector(".faq-question");
+  const answer = item.querySelector(".faq-answer");
+
+  btn.addEventListener("click", () => {
+    const isOpen = item.classList.contains("active");
+
+    // close all
+    faqItems.forEach((i) => {
+      i.classList.remove("active");
+      const a = i.querySelector(".faq-answer");
+      a.style.maxHeight = null;
+    });
+
+    // open clicked
+    if (!isOpen) {
+      item.classList.add("active");
+      answer.style.maxHeight = answer.scrollHeight + "px";
     }
   });
-}, { threshold: 0.15 });
+});
 
-document.querySelectorAll(".reveal, .reveal-left, .reveal-right")
-  .forEach(el => observer.observe(el));
+// =========================
+// SCROLL REVEAL
+// =========================
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+      }
+    });
+  },
+  { threshold: 0.15 }
+);
+
+document
+  .querySelectorAll(".reveal, .reveal-left, .reveal-right")
+  .forEach((el) => observer.observe(el));
