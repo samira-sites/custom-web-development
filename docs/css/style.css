@@ -110,8 +110,8 @@ ul {
 .btn-secondary {
   background: transparent;
   color: var(--white);
-  border: 1px solid rgba(254, 141, 20, 0.461);
-  background: rgba(36, 36, 36, 0.651);
+  border: 1px solid rgba(254, 141, 20, 0.199);
+  background: var(--black);
 }
 
 .btn-secondary:hover {
