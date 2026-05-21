@@ -65,6 +65,59 @@ faqItems.forEach((item) => {
   });
 });
 
+
+// =========================
+// CONTACT FORM
+// =========================
+const form = document.getElementById("contactForm");
+const msg = document.getElementById("responseMsg");
+
+if (form && msg) {
+  const btn = form.querySelector("button");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+
+    console.log("Sending form...");
+    console.log([...formData.entries()]);
+
+    msg.innerText = "Sending...";
+    msg.style.color = "white";
+    msg.classList.add("show");
+
+    btn.disabled = true;
+    btn.innerText = "Sending...";
+
+    try {
+      const response = await fetch("./contact.php", {
+        method: "POST",
+        body: formData
+      });
+
+      if (!response.ok) throw new Error("Server error");
+
+      const data = await response.text();
+
+      msg.innerText = data;
+      msg.style.color = data.toLowerCase().includes("success") ? "orange" : "red";
+
+      if (data.toLowerCase().includes("success")) {
+        form.reset();
+      }
+
+    } catch (err) {
+      console.error(err);
+      msg.innerText = "Server error. Try again.";
+      msg.style.color = "red";
+    } finally {
+      btn.disabled = false;
+      btn.innerText = "Send Message";
+    }
+  });
+}
+
 // =========================
 // SCROLL REVEAL
 // =========================
@@ -91,7 +144,7 @@ document
   const text = document.querySelector('.back-top-text');
 
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 400) {
+    if (window.scrollY > 300) {
       btn.classList.add('visible');
     } else {
       btn.classList.remove('visible');

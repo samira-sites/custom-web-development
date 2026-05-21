@@ -830,7 +830,11 @@ ul {
   border-color: var(--accent);
 }
 
-
+.responseMsg {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
 /*-------contact details---------*/
 .info-card h3{
   margin-bottom: 2rem;
