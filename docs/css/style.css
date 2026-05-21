@@ -1086,16 +1086,33 @@ ul {
   transform: translateX(0);
 }
 
+/* ================= BACK TO TOP ================= */
+
+.back-top-wrapper {
+  position: fixed;
+  bottom: 65px;
+  left: 15px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.back-top-text {
+  color: white;
+  font-size: clamp(0.75rem, 1vw, 0.9rem);
+}
+
 
 #back-to-top {
   position: fixed;
-  bottom: 36px;
-  left: 36px;
-  width: 48px;
-  height: 48px;
+  bottom: 15px;
+  left: 15px;
+  width: clamp(38px, 5vw, 48px);
+  height: clamp(38px, 5vw, 48px);
   background: var(--white);
   border: none;
-  border-radius: 50%;
+  border-radius: var(--radius);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -1137,5 +1154,5 @@ ul {
 
 #back-to-top:hover svg {
   transform: translateY(-2px);
-  
+  stroke: var(--black);
 }
