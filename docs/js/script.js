@@ -82,3 +82,26 @@ const observer = new IntersectionObserver(
 document
   .querySelectorAll(".reveal, .reveal-left, .reveal-right")
   .forEach((el) => observer.observe(el));
+
+
+ // =========================
+// BACK TO TOP
+// ========================= 
+  const btn = document.getElementById('back-to-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  });
+
+  //btn.addEventListener('click', () => {
+  //  window.scrollTo({ top: 0, behavior: 'smooth' });
+ // }); 
+ 
+  btn.addEventListener('click', () => {
+    window.location.href = '#hero';
+  });
+
