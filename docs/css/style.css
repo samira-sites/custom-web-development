@@ -27,6 +27,10 @@ html {
   scroll-behavior: auto;
   scroll-padding-top: 30px;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 body {
   background: var(--black);

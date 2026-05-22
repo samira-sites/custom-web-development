@@ -455,9 +455,8 @@
       <div class="container">
         <div class="section-header">
           <p class="section-tag reveal">Contact</p>
-          <h2 class="reveal">
             <h2 class="reveal">Let’s Build Your Website</h2>
-          </h2>
+
         </div>
 
         <div class="contact-grid">
