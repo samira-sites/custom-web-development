@@ -108,7 +108,7 @@
   <!-- HEADER -->
   <header class="header">
     <nav class="navbar container">
-      <img src="assets/images/Logo.png" class="logo" alt="" />
+      <img src="assets/images/logo.webp" class="logo" alt="" />
 
       <div id="burger" class="burger">
         <span></span>
