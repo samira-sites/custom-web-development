@@ -20,7 +20,7 @@
   <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
 
   <!-- Theme -->
-  <meta name="theme-color" content="#ff7a00">
+  <meta name="theme-color" content="#fe8d14">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Custom Website Development | Samira Omar">
