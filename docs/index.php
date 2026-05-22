@@ -1,107 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Basic Meta -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>
-    Custom Website Development for Businesses | Fast, SEO-Optimized &
-    Professional Websites
-  </title>
+  <title>Custom Website Design & Development for Small Businesses | Samira Omar</title>
 
-  <meta name="description"
-    content="Get a fast, modern, mobile-friendly website designed to help your business build trust, attract clients, and grow online." />
+  <meta name="description" content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
 
-  <meta name="author" content="Samira Omar" />
-  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="web developer, custom websites, small business websites, landing pages, website design">
 
-  <!-- Canonical -->
-  <link rel="canonical" href="https://samira-sites.github.io/custom-web-development/" />
+  <meta name="author" content="Samira Omar">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://samiraomar.com">
+
+  <!-- Google Verification -->
+  <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
 
   <!-- Theme -->
-  <meta name="theme-color" content="#fe9c0a" />
+  <meta name="theme-color" content="#ff7a00">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Custom Websites for Businesses & Personal Brands" />
+  <meta property="og:title" content="Custom Website Development | Samira Omar">
+  <meta property="og:description" content="We create fast, modern websites built for visibility, trust, and business growth online.">
+  <meta property="og:site_name" content="Samira Omar">
+  <meta property="og:url" content="https://samiraomar.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://samiraomar.com/photo/newpreview.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
 
-  <meta property="og:description"
-    content="Your competitors are getting customers online while you stay invisible. Build a professional website that attracts clients, builds trust, and grows your business 24/7." />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses | Samira Omar">
+  <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
+  <meta name="twitter:image" content="https://samiraomar.com/photo/newpreview.webp">
+  <meta name="twitter:site" content="@yourusername">
 
-  <meta property="og:site_name" content="Samira Sites" />
-
-  <meta property="og:url" content="https://samira-sites.github.io/custom-web-development/" />
-
-  <meta property="og:type" content="website" />
-
-  <meta property="og:locale" content="en_US" />
-
-  <meta property="og:image"
-    content="https://samira-sites.github.io/custom-web-development/assets/images/newpreview.webp" />
-
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-
-  <meta property="og:image:alt" content="Custom website development preview for businesses" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <meta name="twitter:title" content="Turn Your Website Into a Client-Getting Machine" />
-
-  <meta name="twitter:description"
-    content="Fast, modern websites designed to build trust, attract customers, and grow your business online. Starter & Pro options available." />
-
-  <meta name="twitter:image"
-    content="https://samira-sites.github.io/custom-web-development/assets/images/preview.webp" />
-
-  <!-- Icons / Favicons -->
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/icons/sam-32.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/icons/sam-180.png" />
-
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-
-  <!-- Performance -->
-  <link rel="preload" as="image" href="assets/images/hero.webp" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
-
-  <!-- Theme Script -->
-  <script>
-    (function () {
-      if (localStorage.getItem("theme") === "light") {
-        document.documentElement.classList.add("light");
-      }
-    })();
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Samira Omar",
+    "url": "https://samiraomar.com/",
+    "jobTitle": "Website Developer",
+    "image": "https://samiraomar.com/photo/sam.webp",
+    "sameAs": [
+      "https://www.linkedin.com/in/samira-omar/"
+    ]
+  }
   </script>
 
-  <!-- Structured Data (SEO) -->
-  <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Samira Sites",
-        "url": "https://samira-sites.github.io/custom-web-development/",
-        "image": "https://samira-sites.github.io/custom-web-development/assets/images/preview.webp",
-        "description": "Custom website development services for businesses and startups.",
-        "founder": {
-          "@type": "Person",
-          "name": "Samira Omar"
-        }
-      }
-    </script>
+  <!-- Calendly -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-  <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+  <!-- Icons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon/192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/180.png">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Performance -->
+  <link rel="preload" as="image" href="photo/hero-profile.webp">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
 </head>
 
 <body>
