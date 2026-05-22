@@ -1,5 +1,6 @@
 .env
 cweb.exe
+.vscode
 
 node_modules/
 .DS_Store
