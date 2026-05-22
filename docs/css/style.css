@@ -156,7 +156,7 @@ ul {
   font-size: 1.4rem;
   font-weight: 700;
   display: block;
-  width: clamp(170px, 20vw, 230px);
+  width: clamp(200px, 22vw, 230px);
 }
 
 .nav-links {
@@ -212,7 +212,7 @@ ul {
 .burger span {
   width: 24px;
   height: 2px;
-  background: var(--white);
+  background: var(--accent);
   transition: 0.3s ease;
 }
 
@@ -1158,5 +1158,4 @@ ul {
 
 #back-to-top:hover svg {
   transform: translateY(-2px);
-  stroke: var(--black);
 }
