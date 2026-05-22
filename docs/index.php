@@ -139,7 +139,7 @@
             Get a modern website that helps your business stand out, build trust, and get noticed online.
           </p>
 
-          <div class="hero-buttons reveal-left">
+          <div class="hero-buttons reveal">
             <a href="#services" class="btn btn-primary">See Services</a>
             <a href="#projects" class="btn btn-secondary">View projects</a>
           </div>
@@ -310,7 +310,7 @@
         </div>
       </div>
       <br>
-      <div class="hero-buttons reveal-left">
+      <div class="hero-buttons reveal-right">
         <a href="#contact" class="btn btn-primary">Let's Work Together</a>
       </div>
     </section>
@@ -337,7 +337,7 @@
                 location and scheduling.
               </p>
 
-              <a href="https://salon.samiraomar.com" class="btn btn-secondary project-btn reveal-left">View Project
+              <a href="https://salon.samiraomar.com" class="btn btn-secondary project-btn reveal">View Project
                 ↗</a>
             </div>
           </article>
@@ -356,7 +356,7 @@
                 showcase my projects, skills, and web development work.
               </p>
 
-              <a href="https://portfolio.samiraomar.com" class="btn btn-secondary project-btn reveal-left">View Project
+              <a href="https://portfolio.samiraomar.com" class="btn btn-secondary project-btn reveal">View Project
                 ↗</a>
             </div>
           </article>
@@ -375,14 +375,14 @@
               </p>
 
               <a href="#" onclick="alert('This project is currently in development. Stay tuned')"
-                class="btn btn-secondary project-btn reveal-left">Launch Soon
+                class="btn btn-secondary project-btn reveal">Launch Soon
                 ↗</a>
             </div>
           </article>
         </div>
       </div>
       <br>
-      <div class="hero-buttons reveal-left">
+      <div class="hero-buttons reveal-right">
         <a href="#contact" class="btn btn-primary">Let's Work Together</a>
       </div>
     </section>
@@ -584,7 +584,7 @@
       <div class="footer-contact">
         <h3 class="reveal">Let's build your website</h3>
         <p class="reveal">Got a project in mind? Let's Talk</p>
-        <a class="footer-btn reveal-left" href=""
+        <a class="footer-btn reveal-right" href=""
           onclick="Calendly.initPopupWidget({url:'https://calendly.com/samiraomar/30min'});return false;">
           Book a Free Dicovery Call
         </a>
