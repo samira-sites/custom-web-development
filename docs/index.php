@@ -24,7 +24,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Custom Website Development | Samira Omar">
-  <meta property="og:description" content="We create fast, modern websites built for visibility, trust, and business growth online.">
+  <meta property="og:description" content="I create fast, modern websites built for visibility, trust, and business growth online.">
   <meta property="og:site_name" content="Samira Omar">
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
