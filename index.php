@@ -89,7 +89,7 @@
   <!-- HEADER -->
   <header class="header">
     <nav class="navbar container">
-      <img src="assets/images/logo.webp" class="logo" alt="" />
+      <img src="docs/assets/images/logo.webp" class="logo" alt="" />
 
       <div id="burger" class="burger">
         <span></span>
@@ -307,7 +307,7 @@
         <div class="projects-grid">
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project1.webp" alt="Nail salon website demo project preview" />
+              <img src="docs/assets/images/project1.webp" alt="Nail salon website demo project preview" />
             </div>
 
             <div class="project-content">
@@ -325,7 +325,7 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project2.webp"
+              <img src="docs/assets/images/project2.webp"
                 alt="Personal portfolio website showcasing web development projects" />
             </div>
 
@@ -344,7 +344,7 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project3.webp" alt="Milk Tea website showcasing web development projects" />
+              <img src="docs/assets/images/project3.webp" alt="Milk Tea website showcasing web development projects" />
             </div>
 
             <div class="project-content">
@@ -586,7 +586,7 @@
     </svg>
   </button>
 
-  <script src="js/script.js"></script>
+  <script src="docs/js/script.js"></script>
   <script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
   
 </body>
