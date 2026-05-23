@@ -179,7 +179,7 @@ ul {
   opacity: 0;
   pointer-events: none;
   box-shadow: 0 8px 25px rgba(255, 166, 0, 0.2);
-  transition: var(--transition), transform 0.6s ease;
+  transition: var(--transition), transform 0.6s ease-in;
   transform: translateX(100%);
 }
 
@@ -237,8 +237,8 @@ ul {
      HERO
   ========================= */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-    url("../assets/images/hero-mobile-bg.webp") center / cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url("../assets/images/newhero.png") center / cover no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -987,8 +987,9 @@ ul {
 
 @media (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-      url("../assets/images/desktop-hero-bg.webp") center / cover no-repeat;
+    background-image: url("../assets/images/newhero\ bg.png") center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+      url("../assets/images/newhero\ bg.png") center / cover no-repeat;
 
     min-height: 100vh;
 

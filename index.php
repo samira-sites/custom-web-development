@@ -89,7 +89,7 @@
   <!-- HEADER -->
   <header class="header">
     <nav class="navbar container">
-      <img src="docs/assets/images/logo.webp" class="logo" alt="" />
+      <img src="assets/images/logo.webp" class="logo" alt="" />
 
       <div id="burger" class="burger">
         <span></span>
