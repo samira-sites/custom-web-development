@@ -419,7 +419,8 @@
               <span class="faq-toggle">⌄</span>
             </button>
             <div class="faq-answer">
-            Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building your site.
+              Just send me your idea and requirements. I’ll guide you through
+              the process and start building your website.
             </div>
           </div>
 

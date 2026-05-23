@@ -1,6 +1,8 @@
 .env
 cweb.exe
 .vscode
+public_html (3).zip
+web.zip
 
 node_modules/
 .DS_Store

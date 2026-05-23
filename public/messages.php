@@ -1,9 +1,5 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-require_once __DIR__ . '/../web/app/config.php';
+require_once __DIR__ . '/../app/config.php';
 
 // DELETE (safe)
 if (isset($_GET['delete'])) {
@@ -26,6 +22,7 @@ $stmt->bind_param("sss", $like, $like, $like);
 $stmt->execute();
 $result = $stmt->get_result();
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +32,7 @@ $result = $stmt->get_result();
 :root {
   --primary: #fe8d14;
   --bg: #0b0f1a;
-  --text: #000;
+  --text: #000
 }
 
 body {
@@ -45,6 +42,7 @@ body {
   color: var(--text);
 }
 
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -54,8 +52,11 @@ body {
   gap: 10px;
 }
 
-h2 { color: var(--primary); }
+h2 {
+  color: var(--primary);
+}
 
+/* Search */
 .search-box input {
   padding: 10px;
   border: 1px solid #ddd;
@@ -71,16 +72,19 @@ h2 { color: var(--primary); }
   cursor: pointer;
 }
 
+/* Refresh */
 .refresh {
   text-decoration: none;
   font-size: 14px;
   color: var(--primary);
 }
 
+/* Table */
 .table-container {
   overflow-x: auto;
   background: white;
   border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   padding: 10px;
 }
 
@@ -94,6 +98,11 @@ th, td {
   text-align: left;
 }
 
+td {
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
 th {
   background: var(--primary);
   color: var(--text);
@@ -103,6 +112,11 @@ tr {
   border-bottom: 1px solid #eee;
 }
 
+tr:hover {
+  background: #fff0f5;
+}
+
+/* Delete button */
 .delete {
   color: white;
   background: #ff4d6d;
@@ -112,14 +126,26 @@ tr {
   font-size: 12px;
 }
 
+.delete:hover {
+  background: #e63950;
+}
+
+/* Empty state */
 .empty {
   text-align: center;
   padding: 20px;
   color: #888;
 }
-</style>
-</head>
 
+/* Responsive */
+@media(max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+}
+</style>
+
+</head>
 <body>
 
 <div class="header">
@@ -127,7 +153,7 @@ tr {
 
   <div>
     <form class="search-box" method="GET" style="display:inline;">
-      <input type="text" name="search" value="<?= htmlspecialchars($search) ?>" placeholder="Search...">
+      <input type="text" name="search" placeholder="Search..." value="<?= htmlspecialchars($search) ?>">
       <button>Search</button>
     </form>
 
@@ -137,7 +163,7 @@ tr {
 
 <div class="table-container">
 
-<p><strong>Total Messages:</strong> <?= $result ? $result->num_rows : 0 ?></p>
+<p><strong>Total Messages:</strong> <?= $result->num_rows ?></p>
 
 <table>
 <tr>
@@ -151,7 +177,7 @@ tr {
 
 <?php if ($result->num_rows === 0): ?>
 <tr>
-  <td colspan="6" class="empty">No messages found 💌</td>
+  <td colspan="7" class="empty">No messages found 💌</td>
 </tr>
 <?php endif; ?>
 
@@ -160,15 +186,20 @@ tr {
 <td><?= $row['id'] ?></td>
 <td><?= htmlspecialchars($row['name']) ?></td>
 <td><?= htmlspecialchars($row['email']) ?></td>
+
 <td>
 <?= strlen($row['message']) > 50 
     ? htmlspecialchars(substr($row['message'], 0, 50)) . '...' 
     : htmlspecialchars($row['message']) ?>
 </td>
+
 <td><?= $row['created_at'] ?? '—' ?></td>
+
 <td>
-<a class="delete" href="?delete=<?= $row['id'] ?>" onclick="return confirm('Delete this message?')">
-Delete
+<a class="delete" 
+   href="?delete=<?= $row['id'] ?>" 
+   onclick="return confirm('Are you sure you want to delete this message?')">
+   Delete
 </a>
 </td>
 </tr>
