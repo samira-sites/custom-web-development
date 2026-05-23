@@ -29,7 +29,7 @@
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://samiraomar.com/assets/images/preview.webp">
+  <meta property="og:image" content="https://samiraomar.com/assets/images/newpreview.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
@@ -38,7 +38,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses | Samira Omar">
   <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
-  <meta name="twitter:image" content="https://samiraomar.com/assets/images/preview.webp">
+  <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
   <meta name="twitter:site" content="@yourusername">
 
   <!-- Structured Data -->
