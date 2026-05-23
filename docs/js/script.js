@@ -151,10 +151,7 @@ document
     }
   });
 
-  //btn.addEventListener('click', () => {
-  //  window.scrollTo({ top: 0, behavior: 'smooth' });
- // }); 
- 
+
   btn.addEventListener('click', () => {
     window.location.href = '#hero';
   });
