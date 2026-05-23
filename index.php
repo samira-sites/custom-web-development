@@ -76,7 +76,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="docs/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Performance -->
   <link rel="preload" as="image" href="photo/hero-profile.webp">
@@ -307,7 +307,7 @@
         <div class="projects-grid">
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="docs/assets/images/project1.webp" alt="Nail salon website demo project preview" />
+              <img src="assets/images/project1.webp" alt="Nail salon website demo project preview" />
             </div>
 
             <div class="project-content">
@@ -325,7 +325,7 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="docs/assets/images/project2.webp"
+              <img src="assets/images/project2.webp"
                 alt="Personal portfolio website showcasing web development projects" />
             </div>
 
@@ -344,7 +344,7 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="docs/assets/images/project3.webp" alt="Milk Tea website showcasing web development projects" />
+              <img src="assets/images/project3.webp" alt="Milk Tea website showcasing web development projects" />
             </div>
 
             <div class="project-content">
@@ -534,9 +534,7 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fe8d14" fill-opacity="1" d="M0,320L720,32L1440,320L1440,0L720,0L0,0Z"></path>
-    </svg>
+ 
     <div class="container footer-content">
       <!-- Brand -->
       <div class="footer-brand">
@@ -585,7 +583,7 @@
     </svg>
   </button>
 
-  <script src="docs/js/script.js"></script>
+  <script src="js/script.js"></script>
   <script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
   
 </body>
