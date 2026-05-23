@@ -882,10 +882,12 @@ ul {
      FOOTER
   ========================= */
 .footer {
-  background: #0f0f0f;
+  background: #222;
+  border-radius: 20px;
   color: #fff;
-  padding: 0px 1rem 0px;
+  padding: 1rem 1rem 0px;
   margin-top: 80px;
+  margin: 0 1rem;
 }
 
 /* layout */
