@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../app/config.php';
+require_once __DIR__ . '/../web/app/config.php';
 
 // DELETE (safe)
 if (isset($_GET['delete'])) {
