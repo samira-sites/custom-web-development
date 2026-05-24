@@ -39,7 +39,7 @@
     <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses | Samira Omar">
     <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
     <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
-    <meta name="twitter:site" content="@Sam_dev88">
+    <meta name="twitter:site" content="Sam_dev88">
   
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -61,6 +61,7 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   
     <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   
