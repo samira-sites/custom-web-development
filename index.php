@@ -1,95 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Basic Meta -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Custom Website Design & Development for Small Businesses | Samira Omar</title>
-
-  <meta name="description" content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
-
-  <meta name="keywords" content="web developer, custom websites, small business websites, landing pages, website design">
-
-  <meta name="author" content="Samira Omar">
-  <meta name="robots" content="index, follow">
-
-  <link rel="canonical" href="https://samiraomar.com">
-
-  <!-- Google Verification -->
-  <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
-
-  <!-- Theme -->
-  <meta name="theme-color" content="#fe8d14">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Custom Website Development | Samira Omar">
-  <meta property="og:description" content="I create fast, modern websites built for visibility, trust, and business growth online.">
-  <meta property="og:site_name" content="Samira Omar">
-  <meta property="og:url" content="https://samiraomar.com">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://samiraomar.com/assets/images/newpreview.webp">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses | Samira Omar">
-  <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
-  <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
-  <meta name="twitter:site" content="@yourusername">
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Samira Omar",
-    "url": "https://samiraomar.com/",
-    "jobTitle": "Website Developer",
-    "image": "https://samiraomar.com/photo/sam.webp",
-    "sameAs": [
-      "https://www.linkedin.com/in/samira-omar/"
-    ]
-  }
-  </script>
-
-  <!-- Calendly -->
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-
-  <!-- Icons -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon_32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon_192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/icon_180.png">
-
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.json">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Performance -->
-  <link rel="preload" as="image" href="photo/hero-profile.webp">
-
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest" defer></script>
-</head>
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Custom Website Design & Development for Small Businesses | Samira Omar</title>
+  
+    <meta name="description" content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
+  
+    <meta name="keywords" content="web developer, custom websites, small business websites, landing pages, website design">
+  
+    <meta name="author" content="Samira Omar">
+    <meta name="robots" content="index, follow">
+  
+    <link rel="canonical" href="https://samiraomar.com/">
+  
+    <!-- Google Verification -->
+    <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
+  
+    <!-- Theme -->
+    <meta name="theme-color" content="#fe8d14">
+  
+    <!-- Open Graph -->
+    <meta property="og:title" content="Custom Website Development | Samira Omar">
+    <meta property="og:description" content="I create fast, modern websites built for visibility, trust, and business growth online.">
+    <meta property="og:site_name" content="Samira Omar">
+    <meta property="og:url" content="https://samiraomar.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://samiraomar.com/assets/images/newpreview.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
+  
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses | Samira Omar">
+    <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
+    <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
+    <meta name="twitter:site" content="@Sam_dev88">
+  
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Samira Omar",
+      "url": "https://samiraomar.com/",
+      "jobTitle": "Website Developer",
+      "image": "https://samiraomar.com/photo/sam.webp",
+      "sameAs": [
+        "https://www.linkedin.com/in/samira-omar/"
+      ]
+    }
+    </script>
+  
+    <!-- Calendly -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon_32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon_192.png">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon_180.png">
+  
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json">
+  
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+  
+    <!-- Performance -->
+    <link rel="preload" as="image" href="/photo/hero-profile.webp">
+  
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+  </head>
 
 <body>
   <!-- HEADER -->
   <header class="header">
     <nav class="navbar container">
-      <img src="assets/images/logo.webp" class="logo" alt="" />
+      <img src="assets/images/logo.webp" class="logo" alt="samira logo" />
 
       <div id="burger" class="burger">
         <span></span>
@@ -538,7 +540,7 @@
     <div class="container footer-content">
       <!-- Brand -->
       <div class="footer-brand">
-        <h3 class="reveal" style="color: #fe8d14">Samira Omar</h3>
+        <h3 class="reveal">Samira Omar</h3>
         <p class="reveal">
           Website Developer crafting clean, modern, and responsive websites
           for businesses and personal brands.
