@@ -214,9 +214,9 @@
         <h3 class="reveal">Choose a package that fits your business goals</h3>
       </div>
 
-      <div class="services-grid card hidden animate-up">
+      <div class="services-grid ">
         <!-- 🟢 STARTER -->
-        <div class="service-card card reveal">
+        <div class="service-card  reveal">
           <h3>🟢 Starter Website</h3>
 
           <p class="desc">
