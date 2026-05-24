@@ -962,8 +962,8 @@ ul {
   text-align: center;
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid #222;
-  color: #666;
+  border-top: 1px solid rgba(255, 166, 0, 0.336);
+  color: #fefefe93;
   font-size: clamp(0.75rem, 1vw, 0.85rem);
 }
 @media (max-width: 768px) {
