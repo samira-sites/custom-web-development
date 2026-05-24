@@ -3,6 +3,7 @@ cweb.exe
 .vscode
 public_html (3).zip
 web.zip
+.ftpquota
 
 node_modules/
 .DS_Store
