@@ -61,9 +61,8 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
   
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon_32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon_192.png">
