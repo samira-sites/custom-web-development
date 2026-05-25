@@ -15,9 +15,7 @@
     <meta name="robots" content="index, follow">
   
     <link rel="canonical" href="https://samiraomar.com/">
-  
-    <!-- Google Verification -->
-    <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
+
   
     <!-- Theme -->
     <meta name="theme-color" content="#fe8d14">
