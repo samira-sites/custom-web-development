@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <title>Custom Website Design & Development for Small Businesses | Samira Omar</title>
+    <title>Custom Website Design & Development for Small Businesses and Personal Brand</title>
   
     <meta name="description" content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
   
@@ -23,7 +23,7 @@
     <meta name="theme-color" content="#fe8d14">
   
     <!-- Open Graph -->
-    <meta property="og:title" content="Custom Website Development | Samira Omar">
+    <meta property="og:title" content="Custom Website Development">
     <meta property="og:description" content="I create fast, modern websites built for visibility, trust, and business growth online.">
     <meta property="og:site_name" content="Samira Omar">
     <meta property="og:url" content="https://samiraomar.com/">
@@ -36,7 +36,7 @@
   
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses | Samira Omar">
+    <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses">
     <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
     <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
     <meta name="twitter:site" content="Sam_dev88">
