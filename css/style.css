@@ -246,7 +246,7 @@ ul {
   ========================= */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-    url("../assets/images/mobile-bg.webp") center / cover no-repeat;
+    url("../assets/images/newmobile-bg.webp") center / cover no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
