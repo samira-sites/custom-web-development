@@ -64,6 +64,15 @@ ul {
 .section {
   padding: 5rem 0;
 }
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+  #projects .section-header {
+  margin-top: .5rem;
+}
+
+}
 
 .section-header {
   text-align: center;
@@ -299,7 +308,7 @@ ul {
   font-size: clamp(2.7rem, 9vw, 6rem);
   line-height: 1.1;
   margin-bottom: 1.5rem;
-
+margin-top: 2.5rem;
 }
 .hero p {
   text-align: justify;
@@ -641,6 +650,7 @@ ul {
 .project-content .btn {
   margin-top: auto;
 }
+
 
 /* =========================
     HOW IT WORKS
