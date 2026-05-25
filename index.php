@@ -64,8 +64,11 @@
   
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon_32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon_192.png">
-  
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon_512.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon_180.png">
+    
+
+
   
     <!-- PWA -->
     <link rel="manifest" href="/manifest.json">
