@@ -25,7 +25,7 @@
 
 html {
   scroll-behavior: auto;
-  scroll-padding-top: 30px;
+  scroll-padding-top: 50px;
 }
 html,
 body {
@@ -59,20 +59,13 @@ ul {
 .container {
   width: min(1120px, 90%);
   margin-inline: auto;
+
 }
 
 .section {
   padding: 5rem 0;
 }
-@media (max-width: 768px) {
-  .section {
-    padding: 3rem 0;
-  }
-  #projects .section-header {
-  margin-top: .5rem;
-}
 
-}
 
 .section-header {
   text-align: center;
@@ -276,7 +269,7 @@ ul {
 }
 .hero-tag {
   color: var(--accent);
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center !important;
@@ -308,7 +301,6 @@ ul {
   font-size: clamp(2.7rem, 9vw, 6rem);
   line-height: 1.1;
   margin-bottom: 1.5rem;
-margin-top: 2.5rem;
 }
 .hero p {
   text-align: justify;
