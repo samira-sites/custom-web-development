@@ -6,10 +6,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Custom Website Design & Development for Small Businesses and Personal Brand</title>
-
+  <title>No Website Yet? Let's Fix That | Samira Omar</title>
   <meta name="description"
-    content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
+    content="No website yet? Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
 
   <meta name="keywords"
     content="web developer, custom websites, small business websites, landing pages, website design">
@@ -19,14 +18,13 @@
 
   <link rel="canonical" href="https://samiraomar.com/">
 
-
   <!-- Theme -->
   <meta name="theme-color" content="#fe8d14">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Custom Website Development">
+  <meta property="og:title" content="No Website Yet? Let's Fix That | Samira Omar">
   <meta property="og:description"
-    content="I create fast, modern websites built for visibility, trust, and business growth online.">
+    content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
   <meta property="og:site_name" content="Samira Omar">
   <meta property="og:url" content="https://samiraomar.com/">
   <meta property="og:type" content="website">
@@ -38,9 +36,9 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses">
+  <meta name="twitter:title" content="No Website Yet? Let's Fix That | Samira Omar">
   <meta name="twitter:description"
-    content="Fast, modern websites designed for small businesses, startups, and personal brands.">
+    content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
   <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
   <meta name="twitter:site" content="Sam_dev88">
 
@@ -72,9 +70,6 @@
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon_512.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon_180.png">
 
-
-
-
   <!-- PWA -->
   <link rel="manifest" href="/manifest.json">
 
@@ -82,12 +77,12 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
+  <!-- Performance -->
+  <link rel="preload" as="image" href="/photo/hero-profile.webp">
+
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
-
-  <!-- Performance -->
-  <link rel="preload" as="image" href="/photo/hero-profile.webp">
 
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest" defer></script>
