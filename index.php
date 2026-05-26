@@ -569,7 +569,7 @@
         <h3 class="reveal">Let's build your website</h3>
         <p class="reveal">Got a project in mind? Let's Talk</p>
         <a href="#" class="btn btn-primary calendly-btn">
-          Book a Call
+          Book a Free Call
         </a>
       </div>
     </div>
