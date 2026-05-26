@@ -26,6 +26,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+/* =========================
+   CALENDLY
+  ========================= */
+  document.querySelectorAll(".calendly-btn").forEach((btn) => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+  
+      Calendly.initPopupWidget({
+        url: "https://calendly.com/samiraomar/30min",
+      });
+    });
+  });
 
   /* =========================
      ACTIVE NAV ON SCROLL

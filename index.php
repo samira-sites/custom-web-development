@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Basic Meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <title>Custom Website Design & Development for Small Businesses and Personal Brand</title>
-  
-    <meta name="description" content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
-  
-    <meta name="keywords" content="web developer, custom websites, small business websites, landing pages, website design">
-  
-    <meta name="author" content="Samira Omar">
-    <meta name="robots" content="index, follow">
-  
-    <link rel="canonical" href="https://samiraomar.com/">
 
-  
-    <!-- Theme -->
-    <meta name="theme-color" content="#fe8d14">
-  
-    <!-- Open Graph -->
-    <meta property="og:title" content="Custom Website Development">
-    <meta property="og:description" content="I create fast, modern websites built for visibility, trust, and business growth online.">
-    <meta property="og:site_name" content="Samira Omar">
-    <meta property="og:url" content="https://samiraomar.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://samiraomar.com/assets/images/newpreview.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
-  
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses">
-    <meta name="twitter:description" content="Fast, modern websites designed for small businesses, startups, and personal brands.">
-    <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
-    <meta name="twitter:site" content="Sam_dev88">
-  
-    <!-- Structured Data -->
-    <script type="application/ld+json">
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Custom Website Design & Development for Small Businesses and Personal Brand</title>
+
+  <meta name="description"
+    content="Get a custom website for your small business, personal brand, or startup. Fast, responsive, SEO-optimized design with modern features to help you grow online.">
+
+  <meta name="keywords"
+    content="web developer, custom websites, small business websites, landing pages, website design">
+
+  <meta name="author" content="Samira Omar">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://samiraomar.com/">
+
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#fe8d14">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Custom Website Development">
+  <meta property="og:description"
+    content="I create fast, modern websites built for visibility, trust, and business growth online.">
+  <meta property="og:site_name" content="Samira Omar">
+  <meta property="og:url" content="https://samiraomar.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://samiraomar.com/assets/images/newpreview.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Custom Website Design & Development for Small Businesses">
+  <meta name="twitter:description"
+    content="Fast, modern websites designed for small businesses, startups, and personal brands.">
+  <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
+  <meta name="twitter:site" content="Sam_dev88">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -53,40 +58,40 @@
       ]
     }
     </script>
-  
-    <!-- Calendly -->
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  
-    <!-- Favicons -->
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
-  
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon_32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon_192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon_512.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon_180.png">
-    
+
+  <!-- Calendly -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon_192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon_512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon_180.png">
 
 
-  
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json">
-  
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-  
-    <!-- Performance -->
-    <link rel="preload" as="image" href="/photo/hero-profile.webp">
-  
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest" defer></script>
-  </head>
+
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Performance -->
+  <link rel="preload" as="image" href="/photo/hero-profile.webp">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
 
 <body>
   <!-- HEADER -->
@@ -124,8 +129,11 @@
           </p>
 
           <div class="hero-buttons reveal">
-            <a href="#services" class="btn btn-primary">See Services</a>
-            <a href="#projects" class="btn btn-secondary">View projects</a>
+            <a href="#" class="btn btn-primary footer-btn"
+              onclick="Calendly.initPopupWidget({url:'https://calendly.com/samiraomar/30min'});return false;">
+              Book a Free Call
+            </a>
+            <a href="#projects" class="btn btn-secondary">View My Work</a>
           </div>
         </div>
       </div>
@@ -422,7 +430,8 @@
               <span class="faq-toggle">⌄</span>
             </button>
             <div class="faq-answer">
-            Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building your site.
+              Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building
+              your site.
             </div>
           </div>
 
@@ -457,12 +466,12 @@
       <div class="container">
         <div class="section-header">
           <p class="section-tag reveal">Contact</p>
-            <h2 class="reveal">Let’s Build Your Website</h2>
+          <h2 class="reveal">Let’s Build Your Website</h2>
 
         </div>
 
         <div class="contact-grid">
-         
+
           <!-- FORM -->
           <form action="contact.php" method="POST" class="contact-form reveal" id="contactForm">
 
@@ -537,7 +546,7 @@
 
   <!-- FOOTER -->
   <footer class="footer">
- 
+
     <div class="container footer-content">
       <!-- Brand -->
       <div class="footer-brand">
@@ -564,9 +573,8 @@
       <div class="footer-contact">
         <h3 class="reveal">Let's build your website</h3>
         <p class="reveal">Got a project in mind? Let's Talk</p>
-        <a class="footer-btn reveal-right" href=""
-          onclick="Calendly.initPopupWidget({url:'https://calendly.com/samiraomar/30min'});return false;">
-          Book a Free Dicovery Call
+        <a href="#" class="btn btn-primary calendly-btn">
+          Book a Call
         </a>
       </div>
     </div>
@@ -588,7 +596,7 @@
 
   <script src="js/script.js"></script>
   <script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
-  
+
 </body>
 
 </html>
