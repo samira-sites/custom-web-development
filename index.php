@@ -50,12 +50,22 @@
       "name": "Samira Omar",
       "url": "https://samiraomar.com/",
       "jobTitle": "Website Developer",
-      "image": "https://samiraomar.com/photo/sam.webp",
+      "image": "https://samiraomar.com/assets/images/image.jpeg",
       "sameAs": [
         "https://www.linkedin.com/in/samira-omar/"
       ]
     }
     </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Samira Omar",
+        "url": "https://samiraomar.com/",
+        "logo": "https://samiraomar.com/assets/images/logo.webp"
+      }
+      </script>
 
   <!-- Calendly -->
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
