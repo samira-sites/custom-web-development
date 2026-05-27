@@ -67,10 +67,6 @@
       }
       </script>
 
-  <!-- Calendly -->
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-
   <!-- Favicons -->
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
@@ -136,8 +132,7 @@
           </p>
 
           <div class="hero-buttons reveal">
-            <a href="#" class="btn btn-primary footer-btn"
-              onclick="Calendly.initPopupWidget({url:'https://calendly.com/samiraomar/30min'});return false;">
+            <a href="#" class="btn btn-primary calendly-btn">
               Book a Free Call
             </a>
             <a href="#projects" class="btn btn-secondary">View My Work</a>

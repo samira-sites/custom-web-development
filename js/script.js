@@ -25,46 +25,87 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
-
 /* =========================
-   CALENDLY
-  ========================= */
-  document.querySelectorAll(".calendly-btn").forEach((btn) => {
-    btn.addEventListener("click", function (e) {
-      e.preventDefault();
-  
-      Calendly.initPopupWidget({
-        url: "https://calendly.com/samiraomar/30min",
-      });
+   CALENDLY (OPTIMIZED)
+========================= */
+function openCalendly(e) {
+  e.preventDefault();
+
+  loadCalendly(() => {
+    Calendly.initPopupWidget({
+      url: "https://calendly.com/samiraomar/30min",
     });
   });
+}
 
-  /* =========================
-     ACTIVE NAV ON SCROLL
-  ========================= */
-  const sections = document.querySelectorAll("section");
+// Use event delegation (BEST FIX)
+document.addEventListener("click", function (e) {
+  const btn = e.target.closest(".calendly-btn");
+  if (!btn) return;
 
-  window.addEventListener("scroll", () => {
+  openCalendly(e);
+});
+
+let calendlyLoaded = false;
+
+function loadCalendly(callback) {
+  if (window.Calendly) {
+    callback?.();
+    return;
+  }
+  
+  if (!calendlyLoaded) {
+    calendlyLoaded = true;
+
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "https://assets.calendly.com/assets/external/widget.css";
+    document.head.appendChild(css);
+
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    script.onload = callback;
+
+    document.body.appendChild(script);
+  }
+}
+/* =========================
+   ACTIVE NAV ON SCROLL
+========================= */
+
+const sections = document.querySelectorAll("section");
+const navItems = document.querySelectorAll(".nav-links a");
+
+window.addEventListener(
+  "scroll",
+  () => {
+
     let current = "";
 
     sections.forEach((section) => {
+
       const sectionTop = section.offsetTop - 120;
 
       if (window.scrollY >= sectionTop) {
         current = section.getAttribute("id");
       }
+
     });
 
-    document.querySelectorAll(".nav-links a").forEach((link) => {
+    navItems.forEach((link) => {
+
       link.classList.remove("active");
 
       if (link.getAttribute("href")?.includes(current)) {
         link.classList.add("active");
       }
+
     });
-  });
 
-
+  },
+  { passive: true }
+);
   /* =========================
      FAQ TOGGLE
   ========================= */
@@ -149,23 +190,35 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  /* =========================
-     SCROLL REVEAL
-  ========================= */
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("active");
-        }
-      });
-    },
-    { threshold: 0.15 }
-  );
+ /* =========================
+   SCROLL REVEAL
+========================= */
 
-  document
-    .querySelectorAll(".reveal, .reveal-left, .reveal-right")
-    .forEach((el) => observer.observe(el));
+const observer = new IntersectionObserver(
+  (entries) => {
+
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {
+
+        entry.target.classList.add("active");
+
+        // stop observing after reveal
+        observer.unobserve(entry.target);
+
+      }
+
+    });
+
+  },
+  {
+    threshold: 0.15,
+  }
+);
+
+document
+  .querySelectorAll(".reveal, .reveal-left, .reveal-right")
+  .forEach((el) => observer.observe(el));
 
 
 /* =========================
@@ -186,7 +239,7 @@ if (backToTopBtn) {
   });
 
   backToTopBtn.addEventListener("click", () => {
-    location.href = "#hero";
+    document.getElementById("hero").scrollIntoView(true);
   });
 
 }
