@@ -119,28 +119,34 @@
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="hero" id="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <p class="hero-tag reveal">Custom Website Development</p>
 
-          <h1 class="reveal">No Website Yet? Let’s Build Yours.</h1>
+ <!-- HERO -->
+<section class="hero" id="hero">
+  <div class="container hero-content">
 
-          <p class="hero-description reveal">
-            Get a modern website that helps your business stand out, build trust, and get noticed online.
-          </p>
+    <!-- LEFT: TEXT -->
+    <div class="hero-text">
+      <p class="hero-tag typing reveal" id="typingText">Custom Website Development</p>
 
-          <div class="hero-buttons reveal">
-            <a href="#" class="btn btn-primary calendly-btn">
-              Book a Free Call
-            </a>
-            <a href="#projects" class="btn btn-secondary">View My Work</a>
-          </div>
-        </div>
+      <h1 class="reveal">No Website Yet? Let’s Build Yours.</h1>
+
+      <p class="hero-description reveal">
+        Get a modern website that helps your business stand out, build trust, and get noticed online.
+      </p>
+
+      <div class="hero-buttons reveal">
+        <a href="#" class="btn btn-primary calendly-btn">Book a Free Call</a>
+        <a href="#projects" class="btn btn-secondary">View My Work</a>
       </div>
-    </section>
+    </div>
 
+    <!-- RIGHT: IMAGE -->
+    <div class="hero-image reveal-right">
+      <img src="/assets/images/hero-img.png" alt="Hero image" />
+    </div>
+
+  </div>
+</section>
     <!------------Slider------------>
 
     <section class="slider-section">
