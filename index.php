@@ -57,7 +57,7 @@
     }
     </script>
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -84,16 +84,17 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- Performance -->
-  <link rel="preload" as="image" href="/photo/hero-profile.webp">
+  <link rel="preload" as="image" href="/assets/images/hero-img.webp">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css">
-  <link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preload" as="style" href="/assets/fontawesome/css/all.min.css" onload="this.rel='stylesheet'">
 
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest" defer></script>
+<noscript>
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+</noscript>
+<link rel="preload" as="style" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
+ 
 </head>
 
 <body>
@@ -120,33 +121,34 @@
 
   <main>
 
- <!-- HERO -->
-<section class="hero" id="hero">
-  <div class="container hero-content">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-content">
 
-    <!-- LEFT: TEXT -->
-    <div class="hero-text">
-      <p class="hero-tag typing reveal" id="typingText">Custom Website Development</p>
+        <!-- LEFT: TEXT -->
+        <div class="hero-text">
+          <p class="hero-tag typing reveal" id="typingText">Custom Website Development</p>
 
-      <h1 class="reveal">No Website Yet? Let’s Build Yours.</h1>
+          <h1 class="reveal">No Website Yet? Let’s Build Yours.</h1>
 
-      <p class="hero-description reveal">
-        Get a modern website that helps your business stand out, build trust, and get noticed online.
-      </p>
+          <p class="hero-description reveal">
+            Get a modern website that helps your business stand out, build trust, and get noticed online.
+          </p>
 
-      <div class="hero-buttons reveal">
-        <a href="#" class="btn btn-primary calendly-btn">Book a Free Call</a>
-        <a href="#projects" class="btn btn-secondary">View My Work</a>
+          <div class="hero-buttons reveal">
+            <a href="#" class="btn btn-primary calendly-btn">Book a Free Call</a>
+            <a href="#projects" class="btn btn-secondary">View My Work</a>
+          </div>
+        </div>
+
+        <!-- RIGHT: IMAGE -->
+        <div class="hero-image reveal-right">
+          <img src="/assets/images/hero.webp" alt="hero" width="520" height="520" loading="eager"
+            fetchpriority="high" />
+        </div>
+
       </div>
-    </div>
-
-    <!-- RIGHT: IMAGE -->
-    <div class="hero-image reveal-right">
-      <img src="/assets/images/hero-img.webp" alt="Hero image" />
-    </div>
-
-  </div>
-</section>
+    </section>
     <!------------Slider------------>
 
     <section class="slider-section">
