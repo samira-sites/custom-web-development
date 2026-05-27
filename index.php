@@ -142,7 +142,7 @@
 
     <!-- RIGHT: IMAGE -->
     <div class="hero-image reveal-right">
-      <img src="/assets/images/hero-img.png" alt="Hero image" />
+      <img src="/assets/images/hero-img.webp" alt="Hero image" />
     </div>
 
   </div>
