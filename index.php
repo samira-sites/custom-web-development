@@ -91,7 +91,9 @@
   <link rel="preload" as="image" href="/photo/hero-profile.webp">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css">
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Lucide Icons -->
