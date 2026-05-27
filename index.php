@@ -143,7 +143,7 @@
 
         <!-- RIGHT: IMAGE -->
         <div class="hero-image reveal-right">
-          <img src="/assets/images/hero-img.webp" alt="hero" loading="eager"
+          <img src="/assets/images/hero.webp" alt="hero" loading="eager"
             fetchpriority="high" />
         </div>
 
