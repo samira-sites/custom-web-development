@@ -167,7 +167,7 @@ ul {
   position: absolute;
   top: 0;
   right: 0;
-  width: 45%;
+  width: 50%;
   height: 100vh;
   background: #222;
   display: flex;
@@ -286,11 +286,24 @@ ul {
 }
 
 @keyframes smoothType {
-  0% { width: 0; opacity: 0; }
-  25% { opacity: 1; }
-  50% { width: 100%; opacity: 1; }
-  75% { opacity: 1; }
-  100% { width: 0; opacity: 0; }
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
 }
 
 /* TITLE */
@@ -316,7 +329,6 @@ ul {
   justify-content: center;
   gap: clamp(0.8rem, 2vw, 1.2rem);
 }
-
 
 .hero-image {
   width: 100%;
@@ -731,6 +743,11 @@ ul {
   margin-top: auto;
 }
 
+.work-together{
+  display: flex;
+  justify-content: center;
+}
+
 /* =========================
     HOW IT WORKS
   ========================= */
@@ -808,8 +825,6 @@ ul {
   color: #b5b5b5;
   font-size: 0.9rem;
 }
-/* FAQ */
-
 /* =========================
    FAQ (FIXED + CLEAN)
 ========================= */
@@ -821,6 +836,7 @@ ul {
   overflow: hidden;
   border: 1px solid transparent;
   transition: border 0.3s ease;
+  font-family: sans-serif;
 }
 
 .faq-item.active {

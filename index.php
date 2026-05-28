@@ -8,7 +8,7 @@
 
   <title>No Website Yet? Let's Fix That | Samira Omar</title>
   <meta name="description"
-    content="No website yet? Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
+    content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
 
   <meta name="keywords"
     content="web developer, custom websites, small business websites, landing pages, website design">
@@ -90,12 +90,12 @@
   <!-- CSS -->
   <link rel="preload" as="style" href="/assets/fontawesome/css/all.min.css" onload="this.rel='stylesheet'">
 
-<noscript>
-  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-</noscript>
-<link rel="preload" as="style" href="/css/style.css">
-<link rel="stylesheet" href="/css/style.css">
- 
+  <noscript>
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  </noscript>
+  <link rel="preload" as="style" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
+
 </head>
 
 <body>
@@ -144,8 +144,7 @@
 
         <!-- RIGHT: IMAGE -->
         <div class="hero-image reveal-right">
-          <img src="/assets/images/hero.webp" alt="hero" loading="eager"
-            fetchpriority="high" />
+          <img src="/assets/images/hero.webp" alt="hero" loading="eager" fetchpriority="high" />
         </div>
 
       </div>
@@ -313,7 +312,7 @@
         </div>
       </div>
       <br>
-      <div class="hero-buttons reveal-right">
+      <div class="work-together reveal-right">
         <a href="#contact" class="btn btn-primary">Let's Work Together</a>
       </div>
     </section>
@@ -385,7 +384,7 @@
         </div>
       </div>
       <br>
-      <div class="hero-buttons reveal-right">
+      <div class="work-together reveal-right">
         <a href="#contact" class="btn btn-primary">Let's Work Together</a>
       </div>
     </section>
@@ -435,6 +434,41 @@
         <h2 class="how-it-works-title how-it-works-faq-title reveal">FAQ</h2>
 
         <div class="faq">
+          <div class="faq-item">
+            <button class="faq-question">
+              What is a custom website?
+              <span class="faq-toggle">⌄</span>
+            </button>
+            <div class="faq-answer">
+              A site fully tailored to your brand — not a template. Every section and detail is designed and developed
+              specifically around your business and goals.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Why choose a custom website over a regular website builder?
+              <span class="faq-toggle">⌄</span>
+            </button>
+            <div class="faq-answer">
+              Platforms limit you to their templates and charge monthly fees just to stay online. A custom website has
+              no such boundaries — the design is uniquely yours, <strong> you own it fully</strong>, and it's built
+              around what actually
+              works for your business.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Who is a custom website for?
+              <span class="faq-toggle">⌄</span>
+            </button>
+            <div class="faq-answer">
+              It's perfect for small businesses, startups, and personal brands who want an online presence that truly
+              represents them — not just another generic template site.
+            </div>
+          </div>
+
           <div class="faq-item">
             <button class="faq-question">
               How do I get started?
