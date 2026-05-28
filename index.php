@@ -39,7 +39,7 @@
   <meta name="twitter:title" content="No Website Yet? Let's Fix That | Samira Omar">
   <meta name="twitter:description"
     content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
-  <meta name="twitter:image" content="https://samiraomar.com/assets/images/newpreview.webp">
+  <meta name="twitter:image" content="https://samiraomar.com/assets/images/preview.webp">
   <meta name="twitter:site" content="Sam_dev88">
 
   <!-- Structured Data -->
