@@ -29,7 +29,7 @@
   <meta property="og:url" content="https://samiraomar.com/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://samiraomar.com/assets/images/newpreview.webp">
+  <meta property="og:image" content="https://samiraomar.com/assets/images/preview.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
