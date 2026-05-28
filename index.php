@@ -63,7 +63,8 @@
         "@type": "Organization",
         "name": "Samira Omar",
         "url": "https://samiraomar.com/",
-        "logo": "https://samiraomar.com/assets/images/logo.webp"
+        "logo": "https://samiraomar.com/assets/images/logo.webp",
+        "description": "Website Developer crafting clean, modern, and responsive websites for businesses and personal brands."
       }
       </script>
 
