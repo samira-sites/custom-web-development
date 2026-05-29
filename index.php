@@ -90,15 +90,12 @@
   <!-- CSS -->
   <link rel="preload" as="style" href="/assets/fontawesome/css/all.min.css" onload="this.rel='stylesheet'">
 
-  <noscript>
-    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-  </noscript>
   <link rel="preload" as="style" href="/css/style.css">
   <link rel="stylesheet" href="/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -107,22 +104,17 @@
     <nav class="navbar container">
 
       <a href="#hero" class="brand">
-        <img
-          src="assets/images/navlogo.webp"
-          class="navlogo"
-          alt="Samira Omar logo"
-         
-        />
+        <img src="assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
         <span class="brand-name">sam<span style="color: #fff;">ira</span>omar</span>
-        
+
       </a>
-    
+
       <div id="burger" class="burger">
         <span></span>
         <span></span>
         <span></span>
       </div>
-    
+
       <ul class="nav-links" id="nav-links">
         <li><a href="#hero" class="active">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -130,7 +122,7 @@
         <li><a href="#process">Process</a></li>
         <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
       </ul>
-    
+
     </nav>
   </header>
 
@@ -158,9 +150,7 @@
 
         <!-- RIGHT: IMAGE -->
         <div class="hero-image reveal-right">
-          <img src="/assets/images/hero-image.webp"   width="1200"
-          height="800"
-          alt="Hero image" loading="eager"
+          <img src="/assets/images/hero-image.webp" width="1200" height="800" alt="Hero image" loading="eager"
             fetchpriority="high" />
         </div>
 
@@ -657,8 +647,6 @@
       <polyline points="18 15 12 9 6 15" />
     </svg>
   </button>
-
-  <script src="js/script.js"></script>
 
   <script>
     window.addEventListener("load", function () {
