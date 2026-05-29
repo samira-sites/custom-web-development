@@ -39,6 +39,7 @@ body {
   line-height: 1.6;
 }
 
+
 /* =========================
      GLOBAL
   ========================= */
@@ -174,10 +175,7 @@ ul {
 .brand-name {
   font-weight: 800;
   font-size: clamp(20px, 4vw, 18px);
-
-  background: linear-gradient(180deg, white, #fe8d14, white, #fe8d14);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-family: "Inter", sans-serif;

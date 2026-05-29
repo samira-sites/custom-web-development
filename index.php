@@ -63,7 +63,7 @@
         "@type": "Organization",
         "name": "Samira Omar",
         "url": "https://samiraomar.com/",
-        "logo": "https://samiraomar.com/assets/images/logo.webp",
+        "logo": "https://samiraomar.com/assets/images/navlogo.webp",
         "description": "Website Developer crafting clean, modern, and responsive websites for businesses and personal brands."
       }
       </script>
@@ -85,7 +85,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- Performance -->
-  <link rel="preload" as="image" href="/assets/images/hero-img.webp">
+  <link rel="preload" as="image" href="/assets/images/hero-image.webp">
 
   <!-- CSS -->
   <link rel="preload" as="style" href="/assets/fontawesome/css/all.min.css" onload="this.rel='stylesheet'">
@@ -95,6 +95,9 @@
   </noscript>
   <link rel="preload" as="style" href="/css/style.css">
   <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 </head>
 
@@ -110,7 +113,7 @@
           alt="Samira Omar logo"
          
         />
-        <span class="brand-name">samiraomar</span>
+        <span class="brand-name">sam<span style="color: #fff;">ira</span>omar</span>
         
       </a>
     
@@ -155,7 +158,9 @@
 
         <!-- RIGHT: IMAGE -->
         <div class="hero-image reveal-right">
-          <img src="/assets/images/hero-image.webp" width="1200" height="800" alt="Website design preview" loading="eager"
+          <img src="/assets/images/hero-image.webp"   width="1200"
+          height="800"
+          alt="Hero image" loading="eager"
             fetchpriority="high" />
         </div>
 
@@ -663,6 +668,7 @@
       document.body.appendChild(script);
     });
   </script>
+
 
 </body>
 
