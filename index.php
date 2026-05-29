@@ -102,7 +102,7 @@
   <!-- HEADER -->
   <header class="header">
     <nav class="navbar container">
-      <img src="assets/images/logo.webp" class="logo" alt="samira logo" />
+      <img src="assets/images/logo.webp" class="logo" alt="samira logo" width="350" height="58" />
 
       <div id="burger" class="burger">
         <span></span>
@@ -328,7 +328,8 @@
         <div class="projects-grid">
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/work1.webp" alt="Nail salon website demo project preview" />
+              <img src="assets/images/work1.webp" alt="Nail salon website demo project preview" width="700" height="420"
+                loading="lazy" />
             </div>
 
             <div class="project-content">
@@ -346,8 +347,8 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/work2.webp"
-                alt="Personal portfolio website showcasing web development projects" />
+              <img src="assets/images/work2.webp" alt="Personal portfolio website showcasing web development projects"
+                width="700" height="420" loading="lazy" />
             </div>
 
             <div class="project-content">
@@ -365,7 +366,8 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/work3.webp" alt="Milk Tea website showcasing web development projects" />
+              <img src="assets/images/work3.webp" alt="Milk Tea website showcasing web development projects" width="700"
+                height="420" loading="lazy" />
             </div>
 
             <div class="project-content">
