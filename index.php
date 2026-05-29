@@ -328,7 +328,7 @@
         <div class="projects-grid">
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project1.webp" alt="Nail salon website demo project preview" />
+              <img src="assets/images/work1.webp" alt="Nail salon website demo project preview" />
             </div>
 
             <div class="project-content">
@@ -346,7 +346,7 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project2.webp"
+              <img src="assets/images/work2.webp"
                 alt="Personal portfolio website showcasing web development projects" />
             </div>
 
@@ -365,7 +365,7 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project3.webp" alt="Milk Tea website showcasing web development projects" />
+              <img src="assets/images/work3.webp" alt="Milk Tea website showcasing web development projects" />
             </div>
 
             <div class="project-content">
