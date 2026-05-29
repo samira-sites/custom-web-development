@@ -88,9 +88,8 @@
   <link rel="preload" as="image" href="/assets/images/hero-image.webp">
 
   <!-- CSS -->
-  <link rel="preload" as="style" href="/assets/fontawesome/css/all.min.css" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 
-  <link rel="preload" as="style" href="/css/style.css">
   <link rel="stylesheet" href="/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
