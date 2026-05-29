@@ -648,14 +648,6 @@
     </svg>
   </button>
 
-  <script>
-    window.addEventListener("load", function () {
-      const script = document.createElement("script");
-      script.src = "//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js"
-      script.async = true;
-      document.body.appendChild(script);
-    });
-  </script>
 
 
 </body>
