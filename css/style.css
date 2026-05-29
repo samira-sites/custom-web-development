@@ -134,6 +134,7 @@ ul {
      HEADER
   ========================= */
 .header {
+  padding: 1rem 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -150,17 +151,36 @@ ul {
 
 .navbar {
   height: 80px;
-
+  padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
-.logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-  display: block;
-  width: clamp(200px, 22vw, 230px);
+  text-decoration: none;
+  color: white;
+}
+
+.navlogo {
+  width: clamp(40px, 3.5vw, 60px);
+  height: auto;
+  border-radius: 50%;
+}
+
+.brand-name {
+  font-weight: 800;
+  font-size: clamp(20px, 4vw, 18px);
+
+  background: linear-gradient(180deg, white, #fe8d14, white, #fe8d14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-links {
@@ -339,9 +359,8 @@ ul {
 .hero-image img {
   width: 100%;
   max-width: 520px;
+  height: auto;
   border-radius: 18px;
-  object-fit: cover;
-
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
 }
 
@@ -743,7 +762,7 @@ ul {
   margin-top: auto;
 }
 
-.work-together{
+.work-together {
   display: flex;
   justify-content: center;
 }

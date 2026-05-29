@@ -102,14 +102,24 @@
   <!-- HEADER -->
   <header class="header">
     <nav class="navbar container">
-      <img src="assets/images/logo.webp" class="logo" alt="samira logo" width="350" height="58" />
 
+      <a href="#hero" class="brand">
+        <img
+          src="assets/images/navlogo.webp"
+          class="navlogo"
+          alt="Samira Omar logo"
+         
+        />
+        <span class="brand-name">samiraomar</span>
+        
+      </a>
+    
       <div id="burger" class="burger">
         <span></span>
         <span></span>
         <span></span>
       </div>
-
+    
       <ul class="nav-links" id="nav-links">
         <li><a href="#hero" class="active">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -117,6 +127,7 @@
         <li><a href="#process">Process</a></li>
         <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
       </ul>
+    
     </nav>
   </header>
 
@@ -144,7 +155,8 @@
 
         <!-- RIGHT: IMAGE -->
         <div class="hero-image reveal-right">
-          <img src="/assets/images/hero.webp" alt="hero" loading="eager" fetchpriority="high" />
+          <img src="/assets/images/hero-image.webp" width="1200" height="800" alt="Website design preview" loading="eager"
+            fetchpriority="high" />
         </div>
 
       </div>
@@ -642,7 +654,15 @@
   </button>
 
   <script src="js/script.js"></script>
-  <script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
+
+  <script>
+    window.addEventListener("load", function () {
+      const script = document.createElement("script");
+      script.src = "//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js"
+      script.async = true;
+      document.body.appendChild(script);
+    });
+  </script>
 
 </body>
 
