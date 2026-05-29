@@ -148,7 +148,7 @@
         </div>
 
         <!-- RIGHT: IMAGE -->
-        <div class="hero-image reveal-right">
+        <div class="hero-image reveal">
           <img src="/assets/images/hero-image.webp" width="1200" height="800" alt="Hero image" loading="eager"
             fetchpriority="high" />
         </div>
@@ -626,7 +626,7 @@
       <div class="footer-contact">
         <h3 class="reveal">Let's build your website</h3>
         <p class="reveal">Got a project in mind? Let's Talk</p>
-        <a href="#" class="btn btn-primary calendly-btn">
+        <a href="#" class="btn btn-primary calendly-btn reveal-left">
           Book a Free Call
         </a>
       </div>
@@ -648,7 +648,14 @@
   </button>
 
 
-
+  <script>
+    window.addEventListener("load", function () {
+      const script = document.createElement("script");
+      script.src = "//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js"
+      script.async = true;
+      document.body.appendChild(script);
+    });
+  </script>
 </body>
 
 </html>

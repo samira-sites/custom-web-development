@@ -39,7 +39,6 @@ body {
   line-height: 1.6;
 }
 
-
 /* =========================
      GLOBAL
   ========================= */
@@ -174,7 +173,7 @@ ul {
 .brand-name {
   font-weight: 800;
   font-size: clamp(20px, 4vw, 18px);
-color: var(--accent);
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-family: "Inter", sans-serif;
