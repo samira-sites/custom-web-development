@@ -874,7 +874,19 @@ ul {
   cursor: pointer;
   text-align: left;
   line-height: 1.6;
+
+    margin-bottom: 0;
+    transition: all 0.3s ease;
+
+
 }
+/* rotate arrow */
+.faq-item.active .faq-question {
+color: var(--black);
+  background-color: var(--accent);
+  margin-bottom: .5rem;
+}
+
 
 .faq-toggle {
   color: var(--accent);
