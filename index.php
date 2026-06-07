@@ -445,7 +445,7 @@
           <div class="faq-item">
             <button class="faq-question">
               What is a custom website?
-              <span class="faq-toggle">⌄</span>
+              <span class="faq-toggle">ᨆ</span>
             </button>
             <div class="faq-answer">
               A site fully tailored to your brand — not a template. Every section and detail is designed and developed
@@ -456,7 +456,7 @@
           <div class="faq-item">
             <button class="faq-question">
               Why choose a custom website over a regular website builder?
-              <span class="faq-toggle">⌄</span>
+              <span class="faq-toggle">ᨆ</span>
             </button>
             <div class="faq-answer">
               Platforms limit you to their templates and charge monthly fees just to stay online. A custom website has
@@ -469,7 +469,7 @@
           <div class="faq-item">
             <button class="faq-question">
               Who is a custom website for?
-              <span class="faq-toggle">⌄</span>
+              <span class="faq-toggle">ᨆ</span>
             </button>
             <div class="faq-answer">
               It's perfect for small businesses, startups, and personal brands who want an online presence that truly
@@ -480,7 +480,7 @@
           <div class="faq-item">
             <button class="faq-question">
               How do I get started?
-              <span class="faq-toggle">⌄</span>
+              <span class="faq-toggle">ᨆ</span>
             </button>
             <div class="faq-answer">
               Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building
@@ -491,7 +491,7 @@
           <div class="faq-item">
             <button class="faq-question">
               Do you offer revisions?
-              <span class="faq-toggle">⌄</span>
+              <span class="faq-toggle">ᨆ</span>
             </button>
             <div class="faq-answer">
               Yes, I include 2 revisions to make sure everything matches your
@@ -502,7 +502,7 @@
           <div class="faq-item">
             <button class="faq-question">
               What happens after the website is finished?
-              <span class="faq-toggle">⌄</span>
+              <span class="faq-toggle">ᨆ</span>
             </button>
             <div class="faq-answer">
               You’ll receive the completed website ready to launch, along with

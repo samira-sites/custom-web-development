@@ -770,6 +770,9 @@ ul {
 /* SECTION */
 .how-it-works {
   padding: 50px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* SCOPED CONTAINER (IMPORTANT FIX) */
@@ -852,6 +855,7 @@ ul {
   border: 1px solid transparent;
   transition: border 0.3s ease;
   font-family: sans-serif;
+ max-width: 700px;
 }
 
 .faq-item.active {
@@ -894,13 +898,14 @@ color: var(--black);
   display: inline-block;
   flex-shrink: 0;
 
-  transition: transform var(--transition);
+  transition: transform 0.3s ease, color 0.3s ease;
   transform-origin: center;
 }
 
 /* rotate arrow */
 .faq-item.active .faq-toggle {
   transform: rotate(180deg);
+  color: var(--black);
 }
 
 .faq-answer {
