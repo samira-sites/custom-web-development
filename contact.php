@@ -70,13 +70,16 @@ if ($stmt->execute()) {
        TELEGRAM SAFE SEND
     ========================= */
     $botToken = $_ENV['TELEGRAM_BOT_TOKEN'] ?? null;
-    $chatID   = $_ENV['TELEGRAM_CHAT_ID'] ?? null;
+    $chatID = $_ENV['TELEGRAM_CHAT_ID'] ?? null;
 
     if ($botToken && $chatID) {
+
+        $website = $_SERVER['HTTP_HOST'];
         $text = "📩 New Contact Form Message\n\n"
-              . "👤 Name: $name\n"
-              . "📧 Email: $email\n"
-              . "💬 Message: $message";
+            . "🌐 Source: $website\n"
+            . "👤 Name: $name\n"
+            . "📧 Email: $email\n"
+            . "💬 Message: $message";
 
         file_get_contents(
             "https://api.telegram.org/bot$botToken/sendMessage?chat_id=$chatID&text=" . urlencode($text)
