@@ -186,6 +186,7 @@ ul {
   width: 50%;
   height: 100vh;
   background: #222;
+  border-left: 1px solid var(--accent);
   display: flex;
   flex-direction: column;
   text-align: center;
