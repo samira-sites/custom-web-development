@@ -377,15 +377,14 @@
             </div>
 
             <div class="project-content">
-              <h3>Demo – BrewBliss Milk Tea Website</h3>
+              <h3>Demo – Milk Tea Website</h3>
 
               <p>
-                A modern milk tea website designed with cozy branding,
-                responsive layouts, and a smooth user experience.
+                Modern milk tea ordering website featuring an interactive shopping cart, online ordering system, order tracking, and a secure admin dashboard for managing customer orders.
               </p>
 
-              <a href="#" onclick="alert('This project is currently in development. Stay tuned')"
-                class="btn btn-secondary project-btn reveal">Launch Soon
+              <a href="https://milktea.samiraomar.com"
+                class="btn btn-secondary project-btn reveal">View Project
                 ↗</a>
             </div>
           </article>

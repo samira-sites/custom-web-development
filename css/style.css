@@ -1164,6 +1164,7 @@ color: var(--black);
     transform: none;
     opacity: 1;
     pointer-events: auto;
+    border-left: none;
   }
   .nav-links a {
     margin-left: 0;
