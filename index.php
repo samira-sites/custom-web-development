@@ -119,6 +119,7 @@
         <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#process">Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
       </ul>
 
@@ -372,19 +373,19 @@
 
           <article class="project-card reveal">
             <div class="project-image">
-              <img src="assets/images/project3.webp" alt="Milk Tea website showcasing web development projects" width="700"
-                height="420" loading="lazy" />
+              <img src="assets/images/project3.webp" alt="Milk Tea website showcasing web development projects"
+                width="700" height="420" loading="lazy" />
             </div>
 
             <div class="project-content">
               <h3>Demo – Milk Tea Website</h3>
 
               <p>
-                Modern milk tea ordering website featuring an interactive shopping cart, online ordering system, order tracking, and a secure admin dashboard for managing customer orders.
+                Modern milk tea ordering website featuring an interactive shopping cart, online ordering system, order
+                tracking, and a secure admin dashboard for managing customer orders.
               </p>
 
-              <a href="https://milktea.samiraomar.com"
-                class="btn btn-secondary project-btn reveal">View Project
+              <a href="https://milktea.samiraomar.com" class="btn btn-secondary project-btn reveal">View Project
                 ↗</a>
             </div>
           </article>
@@ -437,79 +438,81 @@
             </div>
           </div>
         </div>
+    </section>
 
-        <h2 class="how-it-works-title how-it-works-faq-title reveal">FAQ</h2>
+    <!-- FAQ -->
+    <section class="faq reveal" id="faq">
+      <h2 class="how-it-works-title how-it-works-faq-title reveal">FAQ</h2>
 
-        <div class="faq">
-          <div class="faq-item">
-            <button class="faq-question">
-              What is a custom website?
-              <span class="faq-toggle">⌄</span>
-            </button>
-            <div class="faq-answer">
-              A site fully tailored to your brand — not a template. Every section and detail is designed and developed
-              specifically around your business and goals.
-            </div>
-          </div>
 
-          <div class="faq-item">
-            <button class="faq-question">
-              Why choose a custom website over a regular website builder?
-              <span class="faq-toggle">⌄</span>
-            </button>
-            <div class="faq-answer">
-              Platforms limit you to their templates and charge monthly fees just to stay online. A custom website has
-              no such boundaries — the design is uniquely yours, <strong> you own it fully</strong>, and it's built
-              around what actually
-              works for your business.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              Who is a custom website for?
-              <span class="faq-toggle">⌄</span>
-            </button>
-            <div class="faq-answer">
-              It's perfect for small businesses, startups, and personal brands who want an online presence that truly
-              represents them — not just another generic template site.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              How do I get started?
-              <span class="faq-toggle">⌄</span>
-            </button>
-            <div class="faq-answer">
-              Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building
-              your site.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              Do you offer revisions?
-              <span class="faq-toggle">⌄</span>
-            </button>
-            <div class="faq-answer">
-              Yes, I include 2 revisions to make sure everything matches your
-              vision.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              What happens after the website is finished?
-              <span class="faq-toggle">⌄</span>
-            </button>
-            <div class="faq-answer">
-              You’ll receive the completed website ready to launch, along with
-              basic support for fixes and minor updates depending on your
-              package.
-            </div>
-          </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          What is a custom website?
+          <span class="faq-toggle">⌄</span>
+        </button>
+        <div class="faq-answer">
+          A site fully tailored to your brand — not a template. Every section and detail is designed and developed
+          specifically around your business and goals.
         </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Why choose a custom website over a regular website builder?
+          <span class="faq-toggle">⌄</span>
+        </button>
+        <div class="faq-answer">
+          Platforms limit you to their templates and charge monthly fees just to stay online. A custom website has
+          no such boundaries — the design is uniquely yours, <strong> you own it fully</strong>, and it's built
+          around what actually
+          works for your business.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Who is a custom website for?
+          <span class="faq-toggle">⌄</span>
+        </button>
+        <div class="faq-answer">
+          It's perfect for small businesses, startups, and personal brands who want an online presence that truly
+          represents them — not just another generic template site.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How do I get started?
+          <span class="faq-toggle">⌄</span>
+        </button>
+        <div class="faq-answer">
+          Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building
+          your site.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you offer revisions?
+          <span class="faq-toggle">⌄</span>
+        </button>
+        <div class="faq-answer">
+          Yes, I include 2 revisions to make sure everything matches your
+          vision.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What happens after the website is finished?
+          <span class="faq-toggle">⌄</span>
+        </button>
+        <div class="faq-answer">
+          You’ll receive the completed website ready to launch, along with
+          basic support for fixes and minor updates depending on your
+          package.
+        </div>
+      </div>
       </div>
     </section>
 
@@ -647,14 +650,14 @@
   </button>
 
 
-<script>
-  setTimeout(function () {
-    var script = document.createElement("script");
-    script.src = "//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }, 5000); // 5 seconds delay
-</script>
+  <script>
+    setTimeout(function () {
+      var script = document.createElement("script");
+      script.src = "//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }, 5000); // 5 seconds delay
+  </script>
 </body>
 
 </html>

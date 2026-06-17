@@ -847,16 +847,19 @@ ul {
 /* =========================
    FAQ (FIXED + CLEAN)
 ========================= */
-
+.faq {
+  scroll-margin-top: 80px;
+}
 .faq-item {
   background: #171717;
   border-radius: var(--radius);
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
   overflow: hidden;
   border: 1px solid transparent;
   transition: border 0.3s ease;
   font-family: sans-serif;
- max-width: 700px;
+  max-width: 700px;
+  width: calc(100% - 2rem);
 }
 
 .faq-item.active {
@@ -875,23 +878,19 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   cursor: pointer;
   text-align: left;
   line-height: 1.6;
 
-    margin-bottom: 0;
-    transition: all 0.3s ease;
-
-
+  margin-bottom: 0;
+  transition: all 0.3s ease;
 }
 /* rotate arrow */
 .faq-item.active .faq-question {
-color: var(--black);
+  color: var(--black);
   background-color: var(--accent);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-
 
 .faq-toggle {
   color: var(--accent);
