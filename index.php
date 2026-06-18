@@ -442,7 +442,8 @@
 
     <!-- FAQ -->
     <section class="faq reveal" id="faq">
-      <h2 class="how-it-works-title how-it-works-faq-title reveal">FAQ</h2>
+    <p class="section-tag reveal" style="text-align: center;">FAQ</p>
+      <h2 class="how-it-works-title how-it-works-faq-title reveal">Frequently Asked Questions</h2>
 
 
       <div class="faq-item">
