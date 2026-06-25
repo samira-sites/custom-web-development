@@ -315,7 +315,7 @@
     }
 
     .about-hero {
-      padding: 48px 20px 36px;
+      padding: 7rem 1rem;
     }
 
     main p {
@@ -345,6 +345,7 @@
         <p>A journey built on hard work, determination, and a passion for technology. Today, I help businesses establish
           a strong online presence with modern, responsive websites that get results.</p>
       </div>
+      
     </section>
 
     <!-- ============ STORY ============ -->
