@@ -261,6 +261,9 @@
             <li>
               ✔ Free 2-week support after launch (bug fixes & minor updates)
             </li>
+            <li>
+              🎁 Bonus: Domain & Hosting Setup Assistance (client provides purchase)
+            </li>
           </ul>
 
           <div>
@@ -312,6 +315,7 @@
               ✔ Social Media Sharing Optimization (Open Graph / OG Tags) → $25
             </li>
             <li>✔ Extra Custom Page → $20</li>
+            <li>✔ Admin Dashboard (Manage Orders, Products & Website Content) → Starting at $100</li>
             <li>
               ✔ Website Maintenance → $30/month (ongoing support & updates)
             </li>
