@@ -467,7 +467,7 @@
               </li>
 
               <li>
-                <a href="https://github.com/yourusername" target="_blank" class="contact-link">
+                <a href="https://github.com/samira-sites" target="_blank" class="contact-link">
                   <i class="fa-brands fa-github"></i>
                   <span>Check My GitHub</span>
                 </a>
