@@ -337,7 +337,7 @@
 
   <!-- ============ HERO ============ -->
   <main>
-    <section class="about-hero reveal">
+    <section class="about-hero reveal" id="#about">
       <div class="wrap">
         <span class="label">About Me</span>
         <h1>From domestic helper to IT graduate —<br>now building <span>modern websites</span> for businesses like
@@ -348,7 +348,7 @@
     </section>
 
     <!-- ============ STORY ============ -->
-    <section class="story-section" id="#about">
+    <section class="story-section">
       <div class="wrap story-grid reveal">
         <div>
           <div class="photo-pair">
