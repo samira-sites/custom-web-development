@@ -103,7 +103,7 @@
     <nav class="navbar container">
 
       <a href="#hero" class="brand">
-        <img src="/assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
+        <img src="assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
         <span class="brand-name">sam<span style="color: #fff;">ira</span>omar</span>
 
       </a>
@@ -115,12 +115,13 @@
       </div>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="#hero" class="active">Home</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="index.php#hero" class="active">Home</a></li>
+        <li><a href="about.php#about" class="active">About</a></li>
+        <li><a href="index.php#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#process">Process</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contact" class="btn btn-secondary">Contact</a></li>
+        <li><a href="index.php#process">Process</a></li>
+        <li><a href="index.php#faq">FAQ</a></li>
+        <li><a href="index.php#contact" class="btn btn-secondary">Contact</a></li>
       </ul>
 
     </nav>
