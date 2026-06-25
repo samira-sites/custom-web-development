@@ -361,6 +361,16 @@
 
     <div class="faq-item">
       <button class="faq-question">
+       What technology do you use to build websites?
+        <span class="faq-toggle">⌄</span>
+      </button>
+      <div class="faq-answer">
+      I use HTML, CSS, and JavaScript for design, PHP and MySQL for backend features, plus tools like Calendly and cPanel for booking and hosting. Everything is custom-built, not templates.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
         How do I get started?
         <span class="faq-toggle">⌄</span>
       </button>
