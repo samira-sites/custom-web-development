@@ -45,20 +45,7 @@
     padding: 4px 14px;
     display: inline-block;
     margin-bottom: 14px;
-    margin-top: 5rem;
-  }
-
-  /* HERO */
-  @media(max-width:768px) {
-    main p {
-      text-align: justify;
-    }
-
-    .about-hero .wrap {
-      margin: 0 auto;
-      padding: 0 10px;
-    }
-
+    margin: 2rem;
   }
 
   .about-hero {
@@ -322,10 +309,6 @@
       text-align: justify;
     }
 
-    .about-hero .wrap {
-      margin: 0 auto;
-      padding: 0 10px;
-    }
     .story-text h2{
       text-align: center;
     }
@@ -335,21 +318,17 @@
 
 <body>
 
-  <!-- ============ HERO ============ -->
+
   <main>
-    <section class="about-hero reveal" id="#about">
-      <div class="wrap">
-        <span class="label">About Me</span>
-        <h1>From domestic helper to IT graduate —<br>now building <span>modern websites</span> for businesses like
-          yours.</h1>
-        <p>A journey built on hard work, determination, and a passion for technology. Today, I help businesses establish
-          a strong online presence with modern, responsive websites that get results.</p>
-      </div>
-      
-    </section>
+  
 
     <!-- ============ STORY ============ -->
+     
     <section class="story-section">
+      <div class="wrap" style="display: flex; justify-content: center;">
+        <span class="label">About Me</span>
+    
+      </div>
       <div class="wrap story-grid reveal">
         <div>
           <div class="photo-pair">
