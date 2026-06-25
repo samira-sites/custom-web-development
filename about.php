@@ -1,294 +1,440 @@
 <?php include 'header.php'; ?>
 <style>
-  :root{
-    --orange:#fe8d14;
-    --orange-dark:#e67700;
-    --ink:#1c1c1e;
-    --gray:#5b5f66;
-    --line:#e9e7e2;
-    --cream:#fbfaf8;
+  :root {
+    --orange: #fe8d14;
+    --orange-dark: #e67700;
+    --ink: #1c1c1e;
+    --gray: #5b5f66;
+    --line: #e9e7e2;
+    --cream: #fbfaf8;
   }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    font-family:'Segoe UI', system-ui, -apple-system, sans-serif;
-    color:var(--ink);
-    background:#fff;
-    line-height:1.6;
+
+  * {
+    box-sizing: border-box;
   }
- 
-  img{max-width:100%;display:block;border-radius:10px;}
 
-  .wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    background: #fff;
+    line-height: 1.6;
+  }
 
-  .label{
-    text-align:center;
-    font-size:11px;
-    letter-spacing:.12em;
-    text-transform:uppercase;
-    color:var(--orange-dark);
-    background:#fff3e6;
-    border:1px solid #ffd9a8;
-    border-radius:20px;
-    padding:4px 14px;
-    display:inline-block;
-    margin-bottom:14px;
+  img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .label {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--orange-dark);
+    background: #fff3e6;
+    border: 1px solid #ffd9a8;
+    border-radius: 20px;
+    padding: 4px 14px;
+    display: inline-block;
+    margin-bottom: 14px;
     margin-top: 5rem;
   }
 
   /* HERO */
-  @media(max-width:768px){
-    main p{
-    text-align: justify;
-  }
-  .about-hero .wrap{margin:0 auto;padding:0 10px;}
-}
+  @media(max-width:768px) {
+    main p {
+      text-align: justify;
+    }
 
-  .about-hero{
-    padding:64px 24px 48px;
-    text-align:center;
-    background:linear-gradient(180deg,#fff8f0 0%,#fff 100%);
-    border-bottom:1px solid var(--line);
+    .about-hero .wrap {
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+
   }
-  .about-hero h1{
-    font-size:clamp(32px, 4vw, 58px);
-    margin:6px 0 14px;
-    letter-spacing:-0.02em;
+
+  .about-hero {
+    padding: 64px 24px 48px;
+    text-align: center;
+    background: linear-gradient(180deg, #fff8f0 0%, #fff 100%);
+    border-bottom: 1px solid var(--line);
+    min-height: 100vh;
   }
-  .about-hero h1 span{color:var(--orange);}
-  .about-hero p{
-    max-width:560px;
-    margin:0 auto;
-    color:var(--gray);
-    font-size:17px;
+
+  .about-hero h1 {
+    font-size: clamp(32px, 4vw, 58px);
+    margin: 6px 0 14px;
+    letter-spacing: -0.02em;
+  }
+
+  .about-hero h1 span {
+    color: var(--orange);
+  }
+
+  .about-hero p {
+    max-width: 560px;
+    margin: 0 auto;
+    color: var(--gray);
+    font-size: 17px;
   }
 
   /* STORY SECTION */
-  .story-section{padding:64px 0;border-bottom:1px solid var(--line);}
-  .story-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:48px;
-    align-items:center;
+  .story-section {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--line);
   }
-  .photo-pair{display:flex;gap:14px;}
-  .photo-box{
-    flex:1;
-    aspect-ratio:3/4;
-    overflow:hidden;
-    border-radius:10px;
-    border:1px solid var(--line);
-    background:#f1efe9;
+
+  .story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .photo-pair {
+    display: flex;
+    gap: 14px;
+  }
+
+  .photo-box {
+    flex: 1;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: #f1efe9;
     box-shadow: 1px 1px 7px var(--orange);
   }
-  .photo-box img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    border-radius:10px;
+
+  .photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
   }
-  .caption{
-    text-align:center;
-    font-size:13px;
-    color:var(--gray);
-    font-style:italic;
-    margin-top:10px;
+
+  .caption {
+    text-align: center;
+    font-size: 13px;
+    color: var(--gray);
+    font-style: italic;
+    margin-top: 10px;
   }
-  .story-text h2{
-    font-size:26px;
-    margin-top:0;
-    margin-bottom:16px;
+
+  .story-text h2 {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 16px;
   }
-  .story-text p{color:var(--gray);font-size:15.5px;}
-  .speech-link{
-    display:inline-flex;
-    align-items:center;
-    gap:6px;
-    margin-top:14px;
-    color:var(--orange-dark);
-    font-weight:600;
-    font-size:14.5px;
-    text-decoration:none;
-    border-bottom:1px solid var(--orange);
-    padding-bottom:2px;
+
+  .story-text p {
+    color: var(--gray);
+    font-size: 15.5px;
   }
-  .speech-link:hover{color:var(--ink);border-color:var(--ink);}
+
+  .speech-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    color: var(--orange-dark);
+    font-weight: 600;
+    font-size: 14.5px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--orange);
+    padding-bottom: 2px;
+  }
+
+  .speech-link:hover {
+    color: var(--ink);
+    border-color: var(--ink);
+  }
 
   /* DIFFERENT SECTION */
-  .different{
-    padding:56px 0;
-    text-align:center;
-    background:var(--cream);
-    border-bottom:1px solid var(--line);
+  .different {
+    padding: 56px 0;
+    text-align: center;
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
   }
-  .different .wrap{max-width:680px;}
-  .different h2{font-size:24px;margin-bottom:14px;}
-  .different p{color:var(--gray);font-size:15.5px;}
+
+  .different .wrap {
+    max-width: 680px;
+  }
+
+  .different h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .different p {
+    color: var(--gray);
+    font-size: 15.5px;
+  }
 
   /* APPROACH SECTION */
-  .approach{padding:64px 0;border-bottom:1px solid var(--line);}
-  .approach h2{text-align:center;font-size:26px;margin-bottom:36px;}
-  .approach-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:20px;
-    max-width:760px;
-    margin:0 auto;
+  .approach {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--line);
   }
-  .approach-item{
-    display:flex;
-    gap:12px;
-    padding:18px;
-    border:1px solid var(--line);
-    border-radius:10px;
-    background:#fff;
+
+  .approach h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 36px;
   }
-  .approach-item .check{
-    color:var(--orange);
-    font-weight:700;
-    font-size:18px;
-    line-height:1.4;
+
+  .approach-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 760px;
+    margin: 0 auto;
   }
-  .approach-item p{margin:0;font-size:14.5px;color:var(--ink);}
+
+  .approach-item {
+    display: flex;
+    gap: 12px;
+    padding: 18px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: #fff;
+  }
+
+  .approach-item .check {
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .approach-item p {
+    margin: 0;
+    font-size: 14.5px;
+    color: var(--ink);
+  }
 
   /* BASED IN KUWAIT */
-  .location{
-    padding:48px 0;
-    text-align:center;
-    border-bottom:1px solid var(--line);
+  .location {
+    padding: 48px 0;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
   }
-  .location h3{font-size:18px;margin-bottom:10px;color:var(--orange-dark);}
-  .location p{max-width:520px;margin:0 auto;color:var(--gray);font-size:15px;}
+
+  .location h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--orange-dark);
+  }
+
+  .location p {
+    max-width: 520px;
+    margin: 0 auto;
+    color: var(--gray);
+    font-size: 15px;
+  }
 
   /* TRUST LINE */
-  .trust-line{
-    padding:32px 24px;
-    text-align:center;
-    background:#fff8f0;
-    border-bottom:1px solid var(--line);
+  .trust-line {
+    padding: 32px 24px;
+    text-align: center;
+    background: #fff8f0;
+    border-bottom: 1px solid var(--line);
   }
-  .trust-line p{
-    margin:0;
-    font-size:15px;
-    color:var(--ink);
-    font-weight:500;
-    max-width:480px;
-    margin:0 auto;
+
+  .trust-line p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--ink);
+    font-weight: 500;
+    max-width: 480px;
+    margin: 0 auto;
   }
-  .trust-line p::before{content:"✓ ";color:var(--orange);font-weight:700;}
+
+  .trust-line p::before {
+    content: "✓ ";
+    color: var(--orange);
+    font-weight: 700;
+  }
 
   /* CTA */
-  .about-cta{
-    padding:64px 24px;
-    text-align:center;
-    background:var(--ink);
-    color:#fff;
+  .about-cta {
+    padding: 64px 24px;
+    text-align: center;
+    background: var(--ink);
+    color: #fff;
   }
-  .about-cta h2{font-size:26px;margin-bottom:10px;}
-  .about-cta p{color:#cfcfcf;margin-bottom:26px;}
 
-  .btn{
-    padding:14px 32px;
-    border-radius:8px;
-    font-weight:700;
-    text-decoration:none;
-    display:inline-block;
-    font-size:15px;
-    border:none;
-    cursor:pointer;
+  .about-cta h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
   }
-  .btn-primary{
-    background:var(--orange);
-    color:#1c1c1e;
+
+  .about-cta p {
+    color: #cfcfcf;
+    margin-bottom: 26px;
   }
-  .btn-primary:hover{background:var(--orange-dark);}
+
+  .btn {
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background: var(--orange);
+    color: #1c1c1e;
+  }
+
+  .btn-primary:hover {
+    background: var(--orange-dark);
+  }
 
   /* mobile */
-  @media (max-width:720px){
-    .story-grid{grid-template-columns:1fr;gap:28px;}
-    .approach-grid{grid-template-columns:1fr;}
-    .about-hero{padding:48px 20px 36px;}
+  @media (max-width:720px) {
+    .story-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .approach-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .about-hero {
+      padding: 48px 20px 36px;
+    }
+
+    main p {
+      text-align: justify;
+    }
+
+    .about-hero .wrap {
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+    .story-text h2{
+      text-align: center;
+    }
   }
 </style>
 </head>
+
 <body>
 
-<!-- ============ HERO ============ -->
- <main>
-<section class="about-hero reveal">
-  <div class="wrap">
-    <span class="label">About Me</span>
-    <h1>From domestic helper to IT graduate —<br>now building <span>modern websites</span> for businesses like yours.</h1>
-    <p>A journey built on hard work, determination, and a passion for technology. Today, I help businesses establish a strong online presence with modern, responsive websites that get results.</p>
-  </div>
-</section>
+  <!-- ============ HERO ============ -->
+  <main>
+    <section class="about-hero reveal">
+      <div class="wrap">
+        <span class="label">About Me</span>
+        <h1>From domestic helper to IT graduate —<br>now building <span>modern websites</span> for businesses like
+          yours.</h1>
+        <p>A journey built on hard work, determination, and a passion for technology. Today, I help businesses establish
+          a strong online presence with modern, responsive websites that get results.</p>
+      </div>
+    </section>
 
-<!-- ============ STORY ============ -->
-<section class="story-section" id="#about">
-  <div class="wrap story-grid reveal">
-    <div>
-      <div class="photo-pair">
-        <div class="photo-box reveal">
-          <img src="assets/images/dh.webp" alt="Samira in her work uniform as a domestic helper">
+    <!-- ============ STORY ============ -->
+    <section class="story-section" id="#about">
+      <div class="wrap story-grid reveal">
+        <div>
+          <div class="photo-pair">
+            <div class="photo-box reveal">
+              <img src="assets/images/dh.webp" alt="Samira in her work uniform as a domestic helper">
+            </div>
+
+            <div class="photo-box reveal">
+              <img src="assets/images/grad.webp" alt="Samira in her toga at her IT diploma graduation">
+            </div>
+          </div>
+          <p class="caption reveal-left">From domestic helper to IT — and now building modern websites.</p>
         </div>
+        <div class="story-text">
+          <h2 class="reveal">My Story</h2>
+          <p class="reveal">I started my career as an overseas Filipino worker, and along the way I made the decision to
+            build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology
+            — studying late nights and weekends with a clear goal in mind.
 
-        <div class="photo-box reveal">
-          <img src="assets/images/grad.webp" alt="Samira in her toga at her IT diploma graduation">
+            Today, I design and build custom websites for businesses that want to improve their online presence and
+            stand out from the competition. I focus on clean, functional, and user-friendly websites that support real
+            business needs.</p>
+
         </div>
       </div>
-      <p class="caption reveal-left">From domestic helper to IT — and now building modern websites.</p>
+    </section>
+
+    <!-- ============ WHAT I DO DIFFERENTLY ============ -->
+    <section class="different">
+      <div class="wrap">
+        <h2 class="reveal">What I Do Differently</h2>
+        <p class="reveal">I'm a full-stack solo developer — meaning I handle the design, the frontend, the backend, and
+          the deployment myself. No handoffs, no miscommunication between a designer and a developer. You work with one
+          person who understands your project from start to finish.</p>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH ============ -->
+    <section class="approach">
+      <div class="wrap">
+        <h2 class="reveal">My Approach</h2>
+        <div class="approach-grid reveal">
+          <div class="approach-item"><span class="check">✔</span>
+            <p>Clean, modern design tailored to your brand — not a template</p>
+          </div>
+          <div class="approach-item"><span class="check">✔</span>
+            <p>Fast-loading, mobile-friendly websites built with best practices</p>
+          </div>
+          <div class="approach-item"><span class="check">✔</span>
+            <p>Honest pricing and clear timelines — no hidden costs</p>
+          </div>
+          <div class="approach-item"><span class="check">✔</span>
+            <p>Open communication so you always know your project progress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCATION ============ -->
+    <section class="location">
+      <div class="wrap reveal">
+        <h3>Based in Kuwait</h3>
+        <p>
+          I work with clients locally and internationally — from small business owners to startups and personal brands —
+          helping them stand out online with websites designed to build trust, generate leads, and support business
+          growth.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ TRUST LINE ============ -->
+    <section class="trust-line">
+      <p class="reveal">Every project comes with a clear timeline agreed upfront — so you’ll always know exactly what to
+        expect from the start to the final launch.</p>
+    </section>
+
+  </main>
+  <!-- ============ CTA (uses your existing site-wide Calendly script) ============ -->
+  <section class="about-cta reveal">
+    <div class="wrap">
+      <h2>Let's build something that actually works for your business.</h2>
+      <p>Got a project in mind? Let's talk.</p>
+
+      <div class="hero-buttons reveal" style="display: flex; justify-content: center;">
+        <a href="#" class="btn btn-primary calendly-btn">Book a Free Call</a>
+        <a href="index.php#contact" class="btn btn-secondary" style="display: flex; align-items: center;">Contact Me</a>
+      </div>
     </div>
-    <div class="story-text">
-      <h2 class="reveal">My Story</h2>
-      <p class="reveal">I started my career as an overseas Filipino worker, and along the way I made a decision to build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology — studying late nights and weekends because I knew exactly where I wanted to end up. Today, I design and build custom websites for businesses that want to stand out, not blend in.</p>
-      <!-- Replace href with your Facebook graduation speech video link -->
-    </div>
-  </div>
-</section>
-
-<!-- ============ WHAT I DO DIFFERENTLY ============ -->
-<section class="different">
-  <div class="wrap">
-    <h2 class="reveal">What I Do Differently</h2>
-    <p class="reveal">I'm a full-stack solo developer — meaning I handle the design, the frontend, the backend, and the deployment myself. No handoffs, no miscommunication between a designer and a developer. You work with one person who understands your project from start to finish.</p>
-  </div>
-</section>
-
-<!-- ============ APPROACH ============ -->
-<section class="approach">
-  <div class="wrap">
-    <h2 class="reveal">My Approach</h2>
-    <div class="approach-grid reveal">
-      <div class="approach-item"><span class="check">✔</span><p>Clean, modern design tailored to your brand — not a template</p></div>
-      <div class="approach-item"><span class="check">✔</span><p>Fast-loading, mobile-responsive sites built the right way</p></div>
-      <div class="approach-item"><span class="check">✔</span><p>Honest pricing, clear timelines, no surprise costs</p></div>
-      <div class="approach-item"><span class="check">✔</span><p>Real communication — you'll always know where your project stands</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ LOCATION ============ -->
-<section class="location">
-  <div class="wrap reveal">
-    <h3>Based in Kuwait</h3>
-    <p>
-I work with clients locally and internationally—from small business owners to startups and personal brands—helping them stand out online with websites designed to build trust, generate leads, and support business growth.
-</p>
-  </div>
-</section>
-
-<!-- ============ TRUST LINE ============ -->
-<section class="trust-line">
-  <p class="reveal">Every project comes with a clear timeline agreed on upfront — so you'll always know exactly what to expect, from kickoff to launch.</p>
-</section>
-
-</main>
-<!-- ============ CTA (uses your existing site-wide Calendly script) ============ -->
-<section class="about-cta reveal">
-  <div class="wrap">
-    <h2>Let's build something that actually works for your business.</h2>
-    <p>Got a project in mind? Let's talk.</p>
-    <a href="#" class="btn btn-primary calendly-btn reveal-left">Book a Free Call</a>
-  </div>
-</section>
-
+  </section>
