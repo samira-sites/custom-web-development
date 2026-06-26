@@ -341,7 +341,7 @@
         <div>
           <div class="photo-pair">
             <div class="photo-box reveal">
-              <img src="assets/images/dh.webp" alt="Samira Omar working as aN OFW domestic helper before her career in IT">
+              <img src="assets/images/dh.webp" alt="Samira Omar working as an OFW domestic helper before her career in IT">
             </div>
 
             <div class="photo-box reveal">
