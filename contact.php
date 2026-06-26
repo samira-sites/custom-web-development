@@ -4,8 +4,11 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+/* 1. Load config (DB + ENV) */
 require_once __DIR__ . '/../web/app/config.php';
 
+/* 2. Load Composer (PHPMailer + dotenv + everything) */
+require_once __DIR__ . '/../web/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -70,6 +73,7 @@ $stmt->bind_param("sss", $name, $email, $message);
 ========================= */
 if ($stmt->execute()) {
 
+
     /* =========================
        TELEGRAM SAFE SEND
     ========================= */
@@ -92,7 +96,7 @@ if ($stmt->execute()) {
 
     /* =========================
    AUTO REPLY EMAIL
-
+========================= */
 
 try {
 
@@ -143,7 +147,7 @@ try {
 } catch (Exception $e) {
     error_log("Mailer Error: " . $mail->ErrorInfo);
 }
-========================= */
+
 echo "✅ Message sent successfully";
 
 } else {
