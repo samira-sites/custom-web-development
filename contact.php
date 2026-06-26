@@ -111,6 +111,9 @@ try {
 
     $mail = new PHPMailer(true);
 
+    $mail->SMTPDebug = 2;
+$mail->Debugoutput = 'html';
+
     $mail->isSMTP();
     $mail->Host = $_ENV['SMTP_HOST'];
     $mail->SMTPAuth = true;
