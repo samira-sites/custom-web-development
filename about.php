@@ -334,7 +334,7 @@
      
     <section class="story-section" id="about">
       <div class="wrap" style="display: flex; justify-content: center;">
-        <span class="label">About Me</span>
+        <span class="label reveal-left">About Me</span>
     
       </div>
       <div class="wrap story-grid reveal">
