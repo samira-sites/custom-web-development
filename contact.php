@@ -92,7 +92,7 @@ if ($stmt->execute()) {
 
     /* =========================
    AUTO REPLY EMAIL
-========================= */
+
 
 try {
 
@@ -143,7 +143,7 @@ try {
 } catch (Exception $e) {
     error_log("Mailer Error: " . $mail->ErrorInfo);
 }
-
+========================= */
 echo "✅ Message sent successfully";
 
 } else {
