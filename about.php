@@ -340,11 +340,11 @@
       <div class="wrap story-grid reveal">
         <div>
           <div class="photo-pair">
-            <div class="photo-box reveal-left">
+            <div class="photo-box reveal">
               <img src="assets/images/dh.webp" alt="Samira Omar working as an OFW domestic helper before her career in IT">
             </div>
 
-            <div class="photo-box reveal-left">
+            <div class="photo-box reveal">
               <img src="assets/images/grad.webp" alt="Samira Omar at her IT diploma graduation photoshoot">
             </div>
           </div>
