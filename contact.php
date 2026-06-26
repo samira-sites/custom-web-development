@@ -5,6 +5,11 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 require_once __DIR__ . '/../web/app/config.php';
+
+require_once __DIR__ . '/../web/vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 /* =========================
    SESSION SAFETY
 ========================= */
@@ -86,7 +91,61 @@ if ($stmt->execute()) {
         );
     }
 
-    echo "✅ Message sent successfully";
+    /* =========================
+   AUTO REPLY EMAIL
+========================= */
+
+try {
+
+    $mail = new PHPMailer(true);
+
+    $mail->isSMTP();
+    $mail->Host = $_ENV['SMTP_HOST'];
+    $mail->SMTPAuth = true;
+    $mail->Username = $_ENV['SMTP_USER'];
+    $mail->Password = $_ENV['SMTP_PASS'];
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = (int) $_ENV['SMTP_PORT'];
+
+    $mail->setFrom(
+        $_ENV['SMTP_USER'],
+        $_ENV['SMTP_FROM_NAME']
+    );
+
+    // Send to the visitor
+    $mail->addAddress($email, $name);
+
+    $mail->isHTML(true);
+    $mail->Subject = "Thank you for contacting Samira Omar";
+
+    $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+    $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
+
+    $mail->Body = "
+        <h2>Hello {$safeName}! 👋</h2>
+
+        <p>Thank you for contacting me.</p>
+
+        <p>I have received your message and will get back to you as soon as possible, usually within <strong>24 hours</strong>.</p>
+
+        <h3>Your Message</h3>
+
+        <blockquote style='border-left:4px solid #fe8d14;padding-left:15px;'>
+            {$safeMessage}
+        </blockquote>
+
+        <p>Best regards,<br>
+        <strong>Samira Omar</strong><br>
+        Website Developer</p>
+    ";
+
+    $mail->send();
+
+} catch (Exception $e) {
+    error_log("Mailer Error: " . $mail->ErrorInfo);
+}
+
+echo "✅ Message sent successfully";
 
 } else {
     echo "❌ Database error: " . $stmt->error;
