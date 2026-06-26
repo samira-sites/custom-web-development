@@ -5,12 +5,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-/* 1. Load config (DB + ENV) */
-require_once __DIR__ . '/../web/app/config.php';
-
-/* 2. Load Composer (PHPMailer + dotenv + everything) */
-require_once __DIR__ . '/vendor/autoload.php';
-
+require_once __DIR__ . '/web/app/config.php';
+require_once __DIR__ . '/web/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
