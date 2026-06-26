@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 require_once __DIR__ . '/../web/app/config.php';
 
 /* 2. Load Composer (PHPMailer + dotenv + everything) */
-require_once __DIR__ . '/../web/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 
 use PHPMailer\PHPMailer\PHPMailer;
