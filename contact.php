@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 
 
 require_once __DIR__ . '/../web/app/config.php';
-require_once __DIR__ . '../web/vendor/autoload.php';
+require_once __DIR__ . '/../web/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
