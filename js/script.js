@@ -241,7 +241,7 @@ if (backToTopBtn) {
   });
 
   backToTopBtn.addEventListener("click", () => {
-    document.getElementById("hero").scrollIntoView(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
 }

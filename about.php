@@ -322,6 +322,13 @@
       text-align: center;
     }
   }
+
+  #back-to-top {
+    background: #000
+  }
+  #back-to-top:hover{
+    background: #333;
+  }
 </style>
 </head>
 
@@ -355,7 +362,7 @@
         <div class="story-text reveal">
           <h2 class="reveal">My Journey</h2>
           <p>I started my career as an overseas Filipino worker, and along the way I made the decision to
-            build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology
+            build a future in tech. While working full-time, I completed a UK Diploma in Information Technology
             — studying late nights with a clear goal in mind.</p>
 
           <p>Today, I design and build custom websites for businesses that want to improve their online presence and
@@ -428,3 +435,11 @@
       </div>
     </div>
   </section>
+
+  <button id="back-to-top" aria-label="Back to top">
+<svg viewBox="0 0 24 24">
+  <polyline points="18 15 12 9 6 15" />
+</svg>
+</button>
+
+<script src="/js/script.js"></script>
