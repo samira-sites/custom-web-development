@@ -20,6 +20,7 @@
 
   <!-- Theme -->
   <meta name="theme-color" content="#fe8d14">
+  <meta name="google-site-verification" content="googlee876b0cd511ebfe4.html" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="No Website Yet? Let's Fix That | Samira Omar">
