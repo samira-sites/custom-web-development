@@ -146,100 +146,36 @@ $mail->Debugoutput = 'html';
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         
         $mail->Body = "
-        <div style='background:#f3f4f6;padding:40px 0;font-family:Arial,sans-serif;'>
+        <div style='background:#f6f6f6;padding:30px 0;font-family:Arial,sans-serif;'>
         
-          <div style='max-width:600px;margin:0 auto;background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 12px 35px rgba(0,0,0,0.12)'>
+          <div style='max-width:600px;margin:0 auto;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.08)'>
         
             <!-- Header -->
-            <div style='
-              background:linear-gradient(135deg,#ff8a00,#ffb347);
-              padding:35px 25px;
-              text-align:center;
-              color:#fff;
-            '>
-        
-              <div style='font-size:13px;letter-spacing:2px;opacity:0.9;margin-bottom:10px;'>
-                AUTOMATED RESPONSE
-              </div>
-        
-              <h1 style='margin:0;font-size:24px;letter-spacing:0.5px;'>
-                Thank You for Reaching Out
-              </h1>
-        
-              <p style='margin:10px 0 0;font-size:14px;opacity:0.95;'>
-                I’ve received your message and will respond shortly
-              </p>
-        
+            <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;box-shadow:0 0 10px'>
+              <h2 style='margin:0;font-size:22px;'>Thank You for Reaching Out!</h2>
+              <p style='margin:5px 0 0;'>Samira Omar • Website Developer</p>
             </div>
         
             <!-- Body -->
-            <div style='padding:35px;color:#2b2b2b;line-height:1.7;'>
+            <div style='padding:30px;color:#333;line-height:1.6;'>
         
-              <h3 style='margin-top:0;font-size:18px;'>Hello {$safeName} 👋</h3>
+              <h3 style='margin-top:0;'>Hello {$safeName} 👋</h3>
         
-              <p style='font-size:14px;color:#555;'>
-                Thank you for getting in touch. I appreciate your interest and I’ve successfully received your message.
-                I’ll carefully review your request and get back to you as soon as possible.
-              </p>
+              <p>Thank you for contacting me. I’ve received your message and truly appreciate you taking the time to reach out.</p>
         
-              <!-- Highlight Box -->
-              <div style='
-                background:linear-gradient(135deg,#fff7ed,#fff);
-                border:1px solid #ffe0b2;
-                border-left:5px solid #ff8a00;
-                padding:18px;
-                margin:25px 0;
-                border-radius:10px;
-              '>
-                <p style='margin:0;font-size:14px;'>
-                  ⏱ <b>Response time:</b> within 24 hours (usually much faster)
-                </p>
+              <div style='background:#fff7ef;border-left:5px solid #fe8d14;padding:15px;margin:20px 0;border-radius:8px;'>
+                ⏱ I will get back to you as soon as possible, usually within <b>24 hours</b>.
               </div>
         
-              <!-- CTA Box -->
-              <div style='
-                text-align:center;
-                background:#f9fafb;
-                padding:20px;
-                border-radius:12px;
-                margin:25px 0;
-                border:1px solid #eee;
-              '>
+              <p>If your request is urgent, feel free to reply to this email directly.</p>
         
-                <p style='margin:0 0 10px;font-size:13px;color:#666;'>
-                  Need a faster response?
-                </p>
-        
-                <a href='mailto:your@email.com' style='
-                  display:inline-block;
-                  padding:10px 18px;
-                  background:#111;
-                  color:#fff;
-                  text-decoration:none;
-                  border-radius:8px;
-                  font-size:13px;
-                '>
-                  Reply Instantly
-                </a>
-        
-              </div>
-        
-              <p style='margin-top:25px;font-size:14px;color:#555;'>
-                Best regards,<br>
-                <b style='color:#111;'>Samira Omar</b><br>
-                <span style='font-size:13px;color:#777;'>Website Developer</span>
-              </p>
+              <p style='margin-top:25px;'>Best regards,<br>
+              <b>Samira Omar</b></p>
         
             </div>
         
             <!-- Footer -->
-            <div style='
-              background:#0f172a;
-              color:#cbd5e1;
-              text-align:center;
-              padding:18px;
-              font-size:12px;
-            '>
+            <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);'>
               Building modern websites that help businesses grow.
             </div>
         
