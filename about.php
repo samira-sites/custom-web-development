@@ -351,7 +351,7 @@
           <p class="caption reveal-left">From OFW domestic helper to IT — and now building modern websites.</p>
         </div>
         <div class="story-text">
-          <h2 class="reveal">My Story</h2>
+          <h2 class="reveal">My Journey</h2>
           <p class="reveal">I started my career as an overseas Filipino worker, and along the way I made the decision to
             build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology
             — studying late nights and weekends with a clear goal in mind.
