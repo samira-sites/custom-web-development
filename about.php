@@ -332,7 +332,7 @@
 
     <!-- ============ STORY ============ -->
      
-    <section class="story-section">
+    <section class="story-section" id="about">
       <div class="wrap" style="display: flex; justify-content: center;">
         <span class="label">About Me</span>
     
