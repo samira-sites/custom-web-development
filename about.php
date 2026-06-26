@@ -340,21 +340,21 @@
       <div class="wrap story-grid reveal">
         <div>
           <div class="photo-pair">
-            <div class="photo-box reveal">
+            <div class="photo-box reveal-left">
               <img src="assets/images/dh.webp" alt="Samira Omar working as an OFW domestic helper before her career in IT">
             </div>
 
-            <div class="photo-box reveal">
+            <div class="photo-box reveal-left">
               <img src="assets/images/grad.webp" alt="Samira Omar at her IT diploma graduation photoshoot">
             </div>
           </div>
-          <p class="caption reveal-left">From OFW domestic helper to IT — and now building modern websites.</p>
+          <p class="caption reveal-right">From OFW domestic helper to IT — and now building modern websites.</p>
         </div>
         <div class="story-text">
           <h2 class="reveal">My Journey</h2>
           <p class="reveal">I started my career as an overseas Filipino worker, and along the way I made the decision to
             build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology
-            — studying late nights and weekends with a clear goal in mind.
+            — studying late nights with a clear goal in mind.
 
             Today, I design and build custom websites for businesses that want to improve their online presence and
             stand out from the competition. I focus on clean, functional, and user-friendly websites that support real
