@@ -348,7 +348,7 @@
               <img src="assets/images/grad.webp" alt="Samira Omar at her IT diploma graduation photoshoot">
             </div>
           </div>
-          <p class="caption reveal-right">From OFW domestic helper to IT — and now building modern websites.</p>
+          <p class="caption reveal">From OFW domestic helper to IT — and now building modern websites.</p>
         </div>
         <div class="story-text">
           <h2 class="reveal">My Journey</h2>
