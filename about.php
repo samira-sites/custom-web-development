@@ -133,6 +133,7 @@
   .story-text p {
     color: var(--gray);
     font-size: 15.5px;
+  margin: 0 0 12px;
   }
 
   .speech-link {
