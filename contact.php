@@ -107,60 +107,89 @@ if ($stmt->execute()) {
    AUTO REPLY EMAIL
 ========================= */
 
-try {
+    try {
 
-    $mail = new PHPMailer(true);
+        $mail = new PHPMailer(true);
 
-    $mail->SMTPDebug = 2;
+        /* =========================
+   PANG DEBUG SA AUTO REPLY--> 
+       $mail->SMTPDebug = 2;
 $mail->Debugoutput = 'html';
+========================= */
 
-    $mail->isSMTP();
-    $mail->Host = $_ENV['SMTP_HOST'];
-    $mail->SMTPAuth = true;
-    $mail->Username = $_ENV['SMTP_USER'];
-    $mail->Password = $_ENV['SMTP_PASS'];
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = (int) $_ENV['SMTP_PORT'];
 
-    $mail->setFrom(
-        $_ENV['SMTP_USER'],
-        $_ENV['SMTP_FROM_NAME']
-    );
+        $mail->isSMTP();
+        $mail->Host = $_ENV['SMTP_HOST'];
+        $mail->SMTPAuth = true;
+        $mail->Username = $_ENV['SMTP_USER'];
+        $mail->Password = $_ENV['SMTP_PASS'];
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = (int) $_ENV['SMTP_PORT'];
 
-    // Send to the visitor
-    $mail->addAddress($email, $name);
+        $mail->setFrom(
+            $_ENV['SMTP_USER'],
+            $_ENV['SMTP_FROM_NAME']
+        );
 
-    $mail->isHTML(true);
-    $mail->Subject = "Thank you for contacting Samira Omar";
+        // Send to the visitor
+        $mail->addAddress($email, $name);
 
-    $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
-    $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
+        $mail->isHTML(true);
+        $mail->Subject = "Thank you for contacting Samira Omar";
 
-    $mail->Body = "
-        <h2>Hello {$safeName}! 👋</h2>
+        $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+        $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
 
-        <p>Thank you for contacting me.</p>
+        $mail->isHTML(true);
+        $mail->Subject = "Thank you for contacting Samira Omar";
+        
+        $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+        
+        $mail->Body = "
+        <div style='background:#f6f6f6;padding:30px 0;font-family:Arial,sans-serif;'>
+        
+          <div style='max-width:600px;margin:0 auto;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.08)'>
+        
+            <!-- Header -->
+            <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;'>
+              <h2 style='margin:0;font-size:22px;'>Thank You for Reaching Out!</h2>
+              <p style='margin:5px 0 0;'>Samira Omar • Website Developer</p>
+            </div>
+        
+            <!-- Body -->
+            <div style='padding:30px;color:#333;line-height:1.6;'>
+        
+              <h3 style='margin-top:0;'>Hello {$safeName} 👋</h3>
+        
+              <p>Thank you for contacting me. I’ve received your message and truly appreciate you taking the time to reach out.</p>
+        
+              <div style='background:#fff7ef;border-left:5px solid #fe8d14;padding:15px;margin:20px 0;border-radius:8px;'>
+                ⏱ I will get back to you as soon as possible, usually within <b>24 hours</b>.
+              </div>
+        
+              <p>If your request is urgent, feel free to reply to this email directly.</p>
+        
+              <p style='margin-top:25px;'>Best regards,<br>
+              <b>Samira Omar</b></p>
+        
+            </div>
+        
+            <!-- Footer -->
+            <div style='background:#fafafa;padding:20px;text-align:center;font-size:12px;color:#777;'>
+              Building modern websites that help businesses grow.
+            </div>
+        
+          </div>
+        </div>
+        ";
 
-        <p>I have received your message and will get back to you as soon as possible, usually within <strong>24 hours</strong>.</p>
+        $mail->send();
 
-        <h3>Your Message</h3>
+    } catch (Exception $e) {
+        error_log("Mailer Error: " . $mail->ErrorInfo);
+    }
 
-        <blockquote style='border-left:4px solid #fe8d14;padding-left:15px;'>
-            {$safeMessage}
-        </blockquote>
-
-        <p>Best regards,<br>
-        <strong>Samira Omar</strong><br>
-        Website Developer</p>
-    ";
-
-    $mail->send();
-
-} catch (Exception $e) {
-    error_log("Mailer Error: " . $mail->ErrorInfo);
-}
-
-echo "✅ Message sent successfully";
+    echo "✅ Message sent successfully";
 
 } else {
     echo "❌ Database error: " . $stmt->error;
