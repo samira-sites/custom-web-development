@@ -100,11 +100,11 @@
   background: #f1efe9;
   box-shadow: 0 6px 16px rgba(254, 141, 20, 0.084),
               0 2px 6px rgba(0, 0, 0, 0.406);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.5s ease;
 }
 
 .photo-box:hover {
-  transform: translateY(-4px);
+  transform: translateY(-4px) scale(1.02);
   box-shadow: 0 12px 28px rgba(254, 141, 20, 0.18),
               0 4px 10px rgba(0, 0, 0, 0.096);
 }
@@ -341,14 +341,14 @@
         <div>
           <div class="photo-pair">
             <div class="photo-box reveal">
-              <img src="assets/images/dh.webp" alt="Samira Omar working as a domestic helper before her career in IT">
+              <img src="assets/images/dh.webp" alt="Samira Omar working as aN OFW domestic helper before her career in IT">
             </div>
 
             <div class="photo-box reveal">
               <img src="assets/images/grad.webp" alt="Samira Omar at her IT diploma graduation photoshoot">
             </div>
           </div>
-          <p class="caption reveal-left">From domestic helper to IT — and now building modern websites.</p>
+          <p class="caption reveal-left">From OFW domestic helper to IT — and now building modern websites.</p>
         </div>
         <div class="story-text">
           <h2 class="reveal">My Story</h2>
