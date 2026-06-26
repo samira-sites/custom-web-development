@@ -350,9 +350,9 @@
           </div>
           <p class="caption reveal">From OFW domestic helper to IT — and now building modern websites.</p>
         </div>
-        <div class="story-text">
+        <div class="story-text reveal">
           <h2 class="reveal">My Journey</h2>
-          <p class="reveal">I started my career as an overseas Filipino worker, and along the way I made the decision to
+          <p>I started my career as an overseas Filipino worker, and along the way I made the decision to
             build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology
             — studying late nights with a clear goal in mind. <br>
 
@@ -368,9 +368,7 @@
     <section class="different">
       <div class="wrap">
         <h2 class="reveal">What I Do Differently</h2>
-        <p class="reveal">I'm a full-stack web developer, which means I handle every stage of your project—from planning and design to frontend development, backend development, database integration, and deployment. You work directly with one person from start to finish, ensuring clear communication, consistent quality, and no unnecessary handoffs.
-
-My goal is to build fast, responsive, and reliable websites that not only look professional but also help your business grow.</p>
+        <p class="reveal">I'm a full-stack web developer, handling everything from design and frontend development to backend development, database integration, and deployment. You work directly with one developer, ensuring clear communication, consistent quality, and a seamless process from start to finish.</p>
       </div>
     </section>
 
