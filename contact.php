@@ -1,8 +1,5 @@
 <?php
 
-var_dump(file_exists(__DIR__ . '/../web/vendor/autoload.php'));
-var_dump(class_exists('PHPMailer\PHPMailer\PHPMailer'));
-exit;
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
