@@ -1,5 +1,7 @@
 <?php
-
+var_dump(file_exists(__DIR__ . '/../web/vendor/phpmailer/phpmailer'));
+var_dump(file_exists(__DIR__ . '/../vendor/phpmailer/phpmailer'));
+exit;
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
