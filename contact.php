@@ -1,7 +1,4 @@
 <?php
-var_dump(file_exists(__DIR__ . '/../web/vendor/phpmailer/phpmailer'));
-var_dump(file_exists(__DIR__ . '/../vendor/phpmailer/phpmailer'));
-exit;
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -9,8 +6,10 @@ error_reporting(E_ALL);
 
 
 require_once __DIR__ . '/../web/app/config.php';
-require_once __DIR__ . '/../web/vendor/phpmailer/phpmailer';
+require_once __DIR__ . '/../web/vendor/autoload.php';
 
+var_dump(class_exists('PHPMailer\\PHPMailer\\PHPMailer'));
+exit;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
