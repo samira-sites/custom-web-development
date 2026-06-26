@@ -92,22 +92,22 @@
   }
 
   .photo-box {
-  flex: 1;
-  aspect-ratio: 3/4;
-  overflow: hidden;
-  border-radius: 10px;
-  border: 1px solid var(--line);
-  background: #f1efe9;
-  box-shadow: 0 6px 16px rgba(254, 141, 20, 0.084),
-              0 2px 6px rgba(0, 0, 0, 0.406);
-  transition: box-shadow 0.3s ease, transform 0.5s ease;
-}
+    flex: 1;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: #f1efe9;
+    box-shadow: 0 6px 16px rgba(254, 141, 20, 0.084),
+      0 2px 6px rgba(0, 0, 0, 0.406);
+    transition: box-shadow 0.3s ease, transform 0.5s ease;
+  }
 
-.photo-box:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 12px 28px rgba(254, 141, 20, 0.18),
-              0 4px 10px rgba(0, 0, 0, 0.096);
-}
+  .photo-box:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 28px rgba(254, 141, 20, 0.18),
+      0 4px 10px rgba(0, 0, 0, 0.096);
+  }
 
   .photo-box img {
     width: 100%;
@@ -317,7 +317,7 @@
       text-align: justify;
     }
 
-    .story-text h2{
+    .story-text h2 {
       text-align: center;
     }
   }
@@ -328,20 +328,21 @@
 
 
   <main>
-  
+
 
     <!-- ============ STORY ============ -->
-     
+
     <section class="story-section" id="about">
       <div class="wrap" style="display: flex; justify-content: center;">
         <span class="label reveal-left">About Me</span>
-    
+
       </div>
       <div class="wrap story-grid reveal">
         <div>
           <div class="photo-pair">
             <div class="photo-box reveal">
-              <img src="assets/images/dh.webp" alt="Samira Omar working as an OFW domestic helper before her career in IT">
+              <img src="assets/images/dh.webp"
+                alt="Samira Omar working as an OFW domestic helper before her career in IT">
             </div>
 
             <div class="photo-box reveal">
@@ -354,9 +355,9 @@
           <h2 class="reveal">My Journey</h2>
           <p>I started my career as an overseas Filipino worker, and along the way I made the decision to
             build a future in tech. While working full-time, I completed a UK Level 4 Diploma in Information Technology
-            — studying late nights with a clear goal in mind. <br>
+            — studying late nights with a clear goal in mind.</p>
 
-            Today, I design and build custom websites for businesses that want to improve their online presence and
+          <p>Today, I design and build custom websites for businesses that want to improve their online presence and
             stand out from the competition. I focus on clean, functional, and user-friendly websites that support real
             business needs.</p>
 
@@ -368,7 +369,9 @@
     <section class="different">
       <div class="wrap">
         <h2 class="reveal">What I Do Differently</h2>
-        <p class="reveal">I'm a full-stack web developer, handling everything from design and frontend development to backend development, database integration, and deployment. You work directly with one developer, ensuring clear communication, consistent quality, and a seamless process from start to finish.</p>
+        <p class="reveal">I'm a full-stack web developer, handling everything from design and frontend development to
+          backend development, database integration, and deployment. You work directly with one developer, ensuring
+          clear communication, consistent quality, and a seamless process from start to finish.</p>
       </div>
     </section>
 
