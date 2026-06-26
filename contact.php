@@ -175,7 +175,7 @@ $mail->Debugoutput = 'html';
             </div>
         
             <!-- Footer -->
-            <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);'>
+            <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:20px;text-align:center;font-size:12px;color:#777;'>
               Building modern websites that help businesses grow.
             </div>
         
