@@ -324,11 +324,16 @@
   }
 
   #back-to-top {
-    background: #000
+    background: var(--orange-dark)
+    
   }
   #back-to-top:hover{
-    background: #333;
+    background: var(--orange);
   }
+  #back-to-top svg {
+  stroke: var(--line);
+}
+
 </style>
 </head>
 
