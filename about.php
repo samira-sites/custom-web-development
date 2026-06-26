@@ -92,14 +92,22 @@
   }
 
   .photo-box {
-    flex: 1;
-    aspect-ratio: 3/4;
-    overflow: hidden;
-    border-radius: 10px;
-    border: 1px solid var(--line);
-    background: #f1efe9;
-    box-shadow: 1px 1px 7px var(--orange);
-  }
+  flex: 1;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #f1efe9;
+  box-shadow: 0 6px 16px rgba(254, 141, 20, 0.084),
+              0 2px 6px rgba(0, 0, 0, 0.406);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.photo-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(254, 141, 20, 0.18),
+              0 4px 10px rgba(0, 0, 0, 0.096);
+}
 
   .photo-box img {
     width: 100%;
@@ -333,11 +341,11 @@
         <div>
           <div class="photo-pair">
             <div class="photo-box reveal">
-              <img src="assets/images/dh.webp" alt="Samira in her work uniform as a domestic helper">
+              <img src="assets/images/dh.webp" alt="Samira Omar working as a domestic helper before her career in IT">
             </div>
 
             <div class="photo-box reveal">
-              <img src="assets/images/grad.webp" alt="Samira in her toga at her IT diploma graduation">
+              <img src="assets/images/grad.webp" alt="Samira Omar at her IT diploma graduation photoshoot">
             </div>
           </div>
           <p class="caption reveal-left">From domestic helper to IT — and now building modern websites.</p>
