@@ -135,13 +135,10 @@ $mail->Debugoutput = 'html';
         $mail->addAddress($email, $name);
 
         $mail->isHTML(true);
-        $mail->Subject = "Thank you for contacting Samira Omar";
+        $mail->Subject = "Your Message Has Been Received ⭐";
 
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
-
-        $mail->isHTML(true);
-        $mail->Subject = "Thank you for contacting Samira Omar";
         
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         
@@ -153,13 +150,13 @@ $mail->Debugoutput = 'html';
             <!-- Header -->
             <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;box-shadow:0 0 10px'>
               <h2 style='margin:0;font-size:22px;'>Thank You for Reaching Out!</h2>
-              <p style='margin:5px 0 0;'>Samira Omar • Website Developer</p>
+              <p style='margin:5px 0 0;'>{$safeName}</p>
             </div>
         
             <!-- Body -->
             <div style='padding:30px;color:#333;line-height:1.6;'>
         
-              <h3 style='margin-top:0;'>Hello {$safeName} 👋</h3>
+              <h3 style='margin-top:0;'>Hi {$safeName} 👋</h3>
         
               <p>Thank you for contacting me. I’ve received your message and truly appreciate you taking the time to reach out.</p>
         
