@@ -164,7 +164,7 @@ $mail->Debugoutput = 'html';
                 ⏱ I'll get back to you as soon as possible, usually within <b>24 hours</b>.
               </div>
         
-          <p style='text-align:center';>📅 You can book a free discovery call below to discuss your project and see how I can help.<br><br>👇</p>
+          <p style='text-align:center;'>📅 You can book a free discovery call below to discuss your project and see how I can help. <br> 👇</p>
 
       <!-- Button -->
       <div style='text-align:center;margin:25px 0;'>
