@@ -139,9 +139,9 @@ $mail->Debugoutput = 'html';
 
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
-        
+
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
-        
+
         $mail->Body = "
         <div style='background:#f6f6f6;padding:30px 0;font-family:Arial,sans-serif;'>
         
@@ -164,7 +164,11 @@ $mail->Debugoutput = 'html';
                 ⏱ I will get back to you as soon as possible, usually within <b>24 hours</b>.
               </div>
         
-              <p>If your request is urgent, feel free to reply to this email directly.</p>
+            <p>In the meantime, feel free to
+              <a href='https://calendly.com/samiraomar/30min' style='color:#fe8d14;font-weight:bold;text-decoration:none;'>book a discovery  call</a>
+              — a great chance to chat about your project and see if we're a good fit.</p>
+
+              <p>Looking forward to connecting with you!</p>
         
               <p style='margin-top:25px;'>Best regards,<br>
               <b>Samira Omar</b></p>
