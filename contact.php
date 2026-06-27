@@ -149,8 +149,8 @@ $mail->Debugoutput = 'html';
         
             <!-- Header -->
             <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;box-shadow:0 0 10px'>
-              <h2 style='margin:0;font-size:22px;'>Thank You for Reaching Out!</h2>
-              <p style='margin:5px 0 0;'>📩 {$safeName} 😊</p>
+              <h2 style='margin:0;font-size:22px;'>📩Thank You for Reaching Out!</h2>
+              <p style='margin:5px 0 0;'>{$safeName} 😊</p>
             </div>
         
             <!-- Body -->
