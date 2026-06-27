@@ -166,7 +166,7 @@ $mail->Debugoutput = 'html';
         
             <p>In the meantime, feel free to
               <a href='https://calendly.com/samiraomar/30min' style='color:#fe8d14;font-weight:bold;text-decoration:none;'>book a discovery  call</a>
-              — a great chance to chat about your project and see if we're a good fit.</p>
+              — it's free and a great chance to chat about your project and see if we're a good fit.</p>
 
               <p>Looking forward to connecting with you!</p>
         
