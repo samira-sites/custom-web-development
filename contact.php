@@ -164,7 +164,7 @@ $mail->Debugoutput = 'html';
                 ⏱ I'll get back to you as soon as possible, usually within <b>24 hours</b>.
               </div>
         
-           <p>📅 You can book a free discovery call below to discuss your project and see how I can help 👇</p>
+           <p>You can book a free discovery call below to discuss your project and see how I can help 👇</p>
            
 
       <!-- Button -->
