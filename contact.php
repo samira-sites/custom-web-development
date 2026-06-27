@@ -164,7 +164,7 @@ $mail->Debugoutput = 'html';
                 ⏱ I'll get back to you as soon as possible, usually within <b>24 hours</b>.
               </div>
         
-           <p>In the meantime, feel free to book a free discovery call below:</p>
+           <p>📅 You can book a free discovery call below to discuss your project and see how I can help 👇</p>
            
 
       <!-- Button -->
@@ -173,7 +173,7 @@ $mail->Debugoutput = 'html';
            style='display:inline-block;background:linear-gradient(135deg,#fe8d14,#ffb347);
            color:#000;padding:12px 22px;border-radius:8px;text-decoration:none;
            font-weight:bold;font-size:14px;box-shadow:0 4px 10px rgba(0,0,0,0.15);'>
-          Book a Discovery Call
+          Book a Call
         </a>
       </div>
 
