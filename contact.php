@@ -164,7 +164,8 @@ $mail->Debugoutput = 'html';
                 ⏱ I'll get back to you as soon as possible, usually within <b>24 hours</b>.
               </div>
         
-            
+           <p>In the meantime, feel free to book a free discovery call below:</p>
+
       <!-- Button -->
       <div style='text-align:center;margin:25px 0;'>
         <a href='https://calendly.com/samiraomar/30min' target='_blank'
