@@ -135,6 +135,7 @@ $mail->Debugoutput = 'html';
         $mail->addAddress($email, $name);
 
         $mail->isHTML(true);
+        $mail->CharSet = 'UTF-8';
         
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
