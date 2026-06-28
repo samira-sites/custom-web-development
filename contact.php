@@ -135,12 +135,11 @@ $mail->Debugoutput = 'html';
         $mail->addAddress($email, $name);
 
         $mail->isHTML(true);
-        $mail->Subject = "Got your message {$safeName} 😊";
-
+        
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
 
-        $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
+        $mail->Subject = "Got your message {$safeName} 😊";
 
         $mail->Body = "
         <div style='background:#f6f6f6;padding:30px 0;font-family:Arial,sans-serif;'>
