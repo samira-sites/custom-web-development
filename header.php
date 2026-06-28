@@ -1,3 +1,12 @@
+<?php
+$pageTitle = $pageTitle ?? "Samira Omar";
+$pageDescription = $pageDescription ?? "Website Developer";
+$pageKeywords = $pageKeywords ?? "";
+$pageCanonical = $pageCanonical ?? "https://samiraomar.com/";
+$pageOgImage = $pageOgImage ?? "https://samiraomar.com/assets/images/preview.webp";
+$pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,41 +15,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>No Website Yet? Let's Fix That | Samira Omar</title>
-  <meta name="description"
-    content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
+  <title><?= htmlspecialchars($pageTitle) ?></title>
+  <meta name="description" content="<?= htmlspecialchars($pageDescription) ?>">
 
-  <meta name="keywords"
-    content="web developer, custom websites, small business websites, landing pages, website design">
+  <meta name="keywords" content="<?= htmlspecialchars($pageKeywords) ?>">
 
   <meta name="author" content="Samira Omar">
   <meta name="robots" content="index, follow">
 
-  <link rel="canonical" href="https://samiraomar.com/">
+  <link rel="canonical" href="<?= htmlspecialchars($pageCanonical) ?>">
 
   <!-- Theme -->
   <meta name="theme-color" content="#fe8d14">
   <meta name="google-site-verification" content="kkU2fzg6VLTK-mb749d8i36G4OS4fut-8gJIe4NU4tE" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="No Website Yet? Let's Fix That | Samira Omar">
-  <meta property="og:description"
-    content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
+  <meta property="og:title" content="<?= htmlspecialchars($pageTitle) ?>">
+  <meta property="og:description" content="<?= htmlspecialchars($pageDescription) ?>">
   <meta property="og:site_name" content="Samira Omar">
-  <meta property="og:url" content="https://samiraomar.com/">
+  <meta property="og:url" content="<?= htmlspecialchars($pageCanonical) ?>">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://samiraomar.com/assets/images/preview.webp">
+  <meta property="og:image" content="<?= htmlspecialchars($pageOgImage) ?>">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Samira Omar web developer portfolio preview">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="No Website Yet? Let's Fix That | Samira Omar">
-  <meta name="twitter:description"
-    content="Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.">
-  <meta name="twitter:image" content="https://samiraomar.com/assets/images/preview.webp">
+  <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle) ?>">
+<meta name="twitter:description" content="<?= htmlspecialchars($pageDescription) ?>">
+<meta name="twitter:image" content="<?= htmlspecialchars($pageOgImage) ?>">
   <meta name="twitter:site" content="Sam_dev88">
 
   <!-- Structured Data -->

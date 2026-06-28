@@ -1,3 +1,14 @@
+<?php
+$pageTitle = "About Samira Omar | Website Developer";
+$pageDescription = "Learn more about Samira Omar, a website developer creating responsive websites and landing pages for businesses.";
+$pageKeywords = "about samira omar, full-stack web developer, website developer";
+$pageCanonical = "https://samiraomar.com/about.php";
+$pageOgImage = "https://samiraomar.com/assets/images/preview.webp";
+$pageOgAlt = "About Samira Omar";
+
+include 'includes/header.php';
+?>
+
 <?php include 'header.php'; ?>
 <style>
   :root {

@@ -1,3 +1,14 @@
+<?php
+$pageTitle = "No Website Yet? Let's Fix That | Samira Omar";
+$pageDescription = "Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.";
+$pageKeywords = "web developer, custom websites, small business websites, landing pages, website design";
+$pageCanonical = "https://samiraomar.com/";
+$pageOgImage = "https://samiraomar.com/assets/images/preview.webp";
+$pageOgAlt = "Samira Omar web developer portfolio preview";
+
+include 'includes/header.php';
+?>
+
 <?php include 'header.php'; ?>
 
 <main>
