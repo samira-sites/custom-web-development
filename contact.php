@@ -170,7 +170,7 @@ $mail->Debugoutput = 'html';
       <!-- Button -->
       <div style='text-align:center;margin:25px 0;'>
         <a href='https://calendly.com/samiraomar/30min' target='_blank'
-           style='display:inline-block;background:linear-gradient(135deg,#fe8d14,#ffb347);
+           style='display:inline-block;background:#fe8d14;
            color:#000;padding:12px 22px;border-radius:8px;text-decoration:none;
            font-weight:bold;font-size:14px;box-shadow:0 4px 10px rgba(0,0,0,0.15);'>
           Book a Call
