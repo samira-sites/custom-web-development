@@ -5,8 +5,6 @@ $pageKeywords = "web developer, custom websites, small business websites, landin
 $pageCanonical = "https://samiraomar.com/";
 $pageOgImage = "https://samiraomar.com/assets/images/preview.webp";
 $pageOgAlt = "Samira Omar web developer portfolio preview";
-
-include 'includes/header.php';
 ?>
 
 <?php include 'header.php'; ?>

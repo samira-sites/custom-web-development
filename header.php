@@ -126,7 +126,7 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
         <li><a href="index.php#services">Services</a></li>
         <li><a href="index.php#projects">Projects</a></li>
         <li><a href="index.php#process">Process</a></li>
-        <li><a href="index.php#faq">FAQ</a></li>
+        <li><a href="index.php#faq">FAQs</a></li>
         <li><a href="index.php#contact" class="btn btn-secondary">Contact</a></li>
       </ul>
 
