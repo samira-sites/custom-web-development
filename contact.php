@@ -150,8 +150,6 @@ $mail->Debugoutput = 'html';
             <!-- Header -->
             <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;box-shadow:0 0 10px'>
               <h2 style='margin:0;font-size:22px;'>Thank You for Reaching Out!</h2>
-              <p style='margin:10px 0 0;font-size:16px;'><strong>{$safeName}</strong> 😊</p>
-              
             </div>
         
             <!-- Body -->
@@ -178,7 +176,7 @@ $mail->Debugoutput = 'html';
         </a>
       </div>
 
-              <p>Looking forward to connecting with you!</p>
+              <p>Looking forward to connecting with you! 😊</p>
         
               <p style='margin-top:25px;'>Best regards,<br>
               <b>Samira Omar</b></p>
