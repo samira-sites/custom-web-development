@@ -140,7 +140,7 @@ $mail->Debugoutput = 'html';
         $safeName = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
         $safeMessage = nl2br(htmlspecialchars($message, ENT_QUOTES, 'UTF-8'));
 
-        $mail->Subject = "Got your message {$safeName} 😊";
+        $mail->Subject = "📩 Got your message, {$safeName}";
 
         $mail->Body = "
         <div style='background:#f6f6f6;padding:30px 0;font-family:Arial,sans-serif;'>
@@ -150,7 +150,8 @@ $mail->Debugoutput = 'html';
             <!-- Header -->
             <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;box-shadow:0 0 10px'>
               <h2 style='margin:0;font-size:22px;'>Thank You for Reaching Out!</h2>
-              <h3>📩</h3>
+              <p style='margin:10px 0 0;font-size:16px;'><strong>{$safeName}</strong> 😊</p>
+              
             </div>
         
             <!-- Body -->
