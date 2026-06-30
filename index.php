@@ -328,91 +328,83 @@ $pageOgAlt = "Samira Omar web developer portfolio preview";
   </section>
 
   <!-- FAQ -->
-  <section class="faq reveal" id="faq">
-    <p class="section-tag reveal" style="text-align: center;">FAQ</p>
-    <h2 class="how-it-works-title how-it-works-faq-title reveal">Frequently Asked Questions</h2>
+<section class="faq" id="faq">
+  <p class="section-tag" style="text-align: center;">FAQ</p>
+  <h2 class="how-it-works-title how-it-works-faq-title">
+    Frequently Asked Questions
+  </h2>
 
-
-    <div class="faq-item">
-      <button class="faq-question">
-        What is a custom website?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
-        A site fully tailored to your brand — not a template. Every section and detail is designed and developed
-        specifically around your business and goals.
-      </div>
+  <div class="faq-item">
+    <button class="faq-question">
+      What is a custom website?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
+      A site fully tailored to your brand — not a template. Every section and detail is designed and developed specifically around your business and goals.
     </div>
+  </div>
 
-    <div class="faq-item">
-      <button class="faq-question">
-        Why choose a custom website over a regular website builder?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
-        Platforms limit you to their templates and charge monthly fees just to stay online. A custom website has
-        no such boundaries — the design is uniquely yours, <strong> you own it fully</strong>, and it's built
-        around what actually
-        works for your business.
-      </div>
+  <div class="faq-item">
+    <button class="faq-question">
+      Why choose a custom website over a regular website builder?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
+      Platforms limit you to their templates and charge monthly fees just to stay online. A custom website has no such boundaries — the design is uniquely yours, <strong>you own it fully</strong>, and it's built around what actually works for your business.
     </div>
+  </div>
 
-    <div class="faq-item">
-      <button class="faq-question">
-        Who is a custom website for?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
-        It's perfect for small businesses, startups, and personal brands who want an online presence that truly
-        represents them — not just another generic template site.
-      </div>
+  <div class="faq-item">
+    <button class="faq-question">
+      Who is a custom website for?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
+      It's perfect for small businesses, startups, and personal brands who want an online presence that truly represents them — not just another generic template site.
     </div>
+  </div>
 
-    <div class="faq-item">
-      <button class="faq-question">
-       What technology do you use to build websites?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
+  <div class="faq-item">
+    <button class="faq-question">
+      What technology do you use to build websites?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
       I use HTML, CSS, and JavaScript for design, PHP and MySQL for backend features, plus tools like Calendly and cPanel for booking and hosting. Everything is custom-built, not templates.
-      </div>
     </div>
+  </div>
 
-    <div class="faq-item">
-      <button class="faq-question">
-        How do I get started?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
-        Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building
-        your site.
-      </div>
+  <div class="faq-item">
+    <button class="faq-question">
+      How do I get started?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
+      Just reach out and tell me what you have in mind. I'll ask a few simple questions and then start building your site.
     </div>
+  </div>
 
-    <div class="faq-item">
-      <button class="faq-question">
-        Do you offer revisions?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
-        Yes, I include 2 revisions to make sure everything matches your
-        vision.
-      </div>
+  <div class="faq-item">
+    <button class="faq-question">
+      Do you offer revisions?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
+      Yes, I include 2 revisions to make sure everything matches your vision.
     </div>
+  </div>
 
-    <div class="faq-item">
-      <button class="faq-question">
-        What happens after the website is finished?
-        <span class="faq-toggle">⌄</span>
-      </button>
-      <div class="faq-answer">
-        You’ll receive the completed website ready to launch, along with
-        basic support for fixes and minor updates depending on your
-        package.
-      </div>
+  <div class="faq-item">
+    <button class="faq-question">
+      What happens after the website is finished?
+      <span class="faq-toggle">⌄</span>
+    </button>
+    <div class="faq-answer">
+      You’ll receive the completed website ready to launch, along with basic support for fixes and minor updates depending on your package.
     </div>
-    </div>
-  </section>
+  </div>
+
+</section>
 
   <!-- CONTACT -->
   <section class="contact section" id="contact">
