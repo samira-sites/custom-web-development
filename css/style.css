@@ -219,6 +219,8 @@ ul {
   margin-left: 1rem;
   padding: 0.6rem 1.3rem;
   border-bottom: 1px solid #fe8d1482;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  font-weight: 500;
 }
 
 .nav-links a:hover,
@@ -1076,6 +1078,11 @@ ul {
 .footer-links {
   list-style: none;
   padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0 30px; /* row gap | column gap */
+  line-height: 1;
 }
 
 .footer-links li {
@@ -1083,7 +1090,7 @@ ul {
 }
 
 .footer-links a {
-  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  font-size: clamp(0.9rem, .9vw, 1rem);
   color: #aaa;
   text-decoration: none;
   transition: 0.3s ease;

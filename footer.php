@@ -14,7 +14,6 @@
   <!-- Navigation -->
   <div class="footer-nav">
     <h3 class="reveal">Quick Links</h3>
-
     <ul class="footer-links">
       <li class="reveal"><a href="#hero">Home</a></li>
       <li class="reveal"><a href="about.php#about">About</a></li>
