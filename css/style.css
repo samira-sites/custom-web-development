@@ -1081,7 +1081,7 @@ ul {
 
   display: grid;
   grid-template-columns: repeat(2, auto);
-  gap: 0 30px; /* row gap | column gap */
+  gap: 0 50px; /* row gap | column gap */
   line-height: 1;
 }
 
@@ -1211,7 +1211,7 @@ ul {
 .reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.6s ease;
+  transition: 0.5s ease;
 }
 
 .reveal.active {
@@ -1222,7 +1222,7 @@ ul {
 .reveal-left,
 .reveal-right {
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 0.33s ease-in;
 }
 
 .reveal-left {
