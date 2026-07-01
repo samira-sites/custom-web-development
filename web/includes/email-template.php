@@ -3,7 +3,7 @@
 return "
         <div style='background:#f6f6f6;padding:30px 0;font-family:Arial,sans-serif;'>
         
-          <div style='max-width:600px;margin:0 auto;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.08)'>
+          <div style='max-width:600px;margin:0 auto;border:1px solid #fe8d14;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.08)'>
         
             <!-- Header -->
             <div style='background:linear-gradient(135deg,#fe8d14,#ffb347);padding:25px;text-align:center;color:#fff;box-shadow:0 0 10px'>

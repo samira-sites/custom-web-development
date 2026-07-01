@@ -2,4 +2,4 @@
 
 $safeName = "Sam";
 
-echo require __DIR__ . '/web/includes/email-template.php';
+echo require __DIR__ . '/web/includes/email-template.php'; 
