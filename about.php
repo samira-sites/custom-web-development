@@ -375,7 +375,7 @@ $pageOgAlt = "About Samira Omar";
         </div>
         <div class="story-text reveal">
           <h2 class="reveal">My Journey</h2>
-          <p>I started my career as an overseas Filipino worker, and along the way I made the decision to
+          <p>I'm Samira Omar, I started my career as an overseas Filipino worker, and along the way I made the decision to
             build a future in tech. While working full-time, I completed a UK Diploma in Information Technology
             — studying late nights with a clear goal in mind.</p>
 
