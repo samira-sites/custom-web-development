@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "No Website Yet? Let's Fix That | Samira Omar";
+$pageTitle = "Custom Websites for Small Businesses | Samira Omar";
 $pageDescription = "Your business deserves to be found online. I build clean, modern websites for small businesses and personal brands.";
 $pageKeywords = "web developer, custom websites, small business websites, landing pages, website design";
 $pageCanonical = "https://samiraomar.com/";
@@ -33,7 +33,7 @@ $pageOgAlt = "Samira Omar web developer portfolio preview";
 
       <!-- RIGHT: IMAGE -->
       <div class="hero-image reveal">
-        <img src="/assets/images/hero-image.webp" width="1200" height="800" alt="Hero image" loading="eager"
+        <img src="assets/images/hero-image.webp" width="1200" height="800" alt="Hero image" loading="eager"
           fetchpriority="high" />
       </div>
 
