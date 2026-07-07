@@ -9,7 +9,7 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
 
 <!-- Performance -->
 <?php if (basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
-<link rel="preload" href="/assets/images/hero-image.webp" as="image">
+  <link rel="preload" href="/assets/images/hero-image.webp" as="image">
 <?php endif; ?>
 
 <!DOCTYPE html>
@@ -95,13 +95,18 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-
-  <link rel="stylesheet" href="/css/style.css">
+  <!-- Performance: Preconnect -->
+  <link rel="preconnect" href="https://assets.calendly.com">
+  <link rel="preconnect" href="https://calendly.com">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- JavaScript -->
   <script src="/js/script.js" defer></script>
 </head>
 
