@@ -29,7 +29,7 @@
   <div class="footer-contact">
     <h3 class="reveal">Let's build your website</h3>
     <p class="reveal">Got a project in mind? Let's Talk</p>
-    <a href="#contact" class="btn btn-primary reveal-left">
+    <a href="index.php#contact" class="btn btn-primary reveal-left">
       Get in Touch
     </a>
   </div>
