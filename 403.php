@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found</title>
+    <title>403 - Access Forbidden</title>
     <link rel="stylesheet" href="css/error.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>404</h1>
-        <h2>Oops! Page Not Found</h2>
+        <h1>403</h1>
+        <h2>Oops! Access Forbidden</h2>
         <p>
-            The page you're looking for may have been moved, deleted,
-            or the URL may be incorrect.
+        Sorry, you don't have permission to access this page. It may be restricted or require authorization.
         </p>
 
         <a href="/" class="btn">← Back to Home</a>
