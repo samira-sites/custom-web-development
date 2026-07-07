@@ -26,7 +26,7 @@ $pageOgAlt = "Samira Omar web developer portfolio preview";
         </p>
 
         <div class="hero-buttons reveal">
-          <a href="#contact" class="btn">Get in Touch</a>
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
           <a href="#projects" class="btn btn-secondary">View My Work</a>
         </div>
       </div>
