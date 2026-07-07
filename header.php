@@ -7,15 +7,17 @@ $pageOgImage = $pageOgImage ?? "https://samiraomar.com/assets/images/preview.web
 $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
 ?>
 
-<!-- Performance -->
-<?php if (basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
-  <link rel="preload" href="/assets/images/hero-image.webp" as="image">
-<?php endif; ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
+  <!-- Performance -->
+  <?php if (basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
+    <link rel="preload" href="/assets/images/hero-image.webp" as="image">
+  <?php endif; ?>
+
   <!-- Basic Meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,8 +98,16 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- Performance: Preconnect -->
-  <link rel="preconnect" href="https://assets.calendly.com">
+  <!-- Calendly -->
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+
+if (in_array($currentPage, ['index.php', 'about.php'])):
+?>
+  <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
   <link rel="preconnect" href="https://calendly.com">
+  <script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
+<?php endif; ?>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -107,7 +117,10 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- JavaScript -->
-  <script src="/js/script.js" defer></script>
+  <script src="/js/script.js" defer>
+     src="https://assets.calendly.com/assets/external/widget.js"
+     defer>
+  </script>
 </head>
 
 <body>
