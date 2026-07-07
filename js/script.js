@@ -28,50 +28,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
 /* =========================
-   CALENDLY (OPTIMIZED)
+   CALENDLY POPUP
 ========================= */
-function openCalendly(e) {
-  e.preventDefault();
 
-  loadCalendly(() => {
-    Calendly.initPopupWidget({
-      url: "https://calendly.com/samiraomar/30min",
-    });
-  });
-}
+document.addEventListener("click", function(e) {
 
-// Use event delegation (BEST FIX)
-document.addEventListener("click", function (e) {
   const btn = e.target.closest(".calendly-btn");
+
   if (!btn) return;
 
-  openCalendly(e);
-});
+  e.preventDefault();
 
-let calendlyLoaded = false;
-
-function loadCalendly(callback) {
   if (window.Calendly) {
-    callback?.();
-    return;
-  }
-  
-  if (!calendlyLoaded) {
-    calendlyLoaded = true;
 
-    const css = document.createElement("link");
-    css.rel = "stylesheet";
-    css.href = "https://assets.calendly.com/assets/external/widget.css";
-    document.head.appendChild(css);
+    Calendly.initPopupWidget({
+      url: "https://calendly.com/samiraomar/30min"
+    });
+
+  } else {
 
     const script = document.createElement("script");
+
     script.src = "https://assets.calendly.com/assets/external/widget.js";
-    script.async = true;
-    script.onload = callback;
+
+    script.onload = function() {
+
+      Calendly.initPopupWidget({
+        url: "https://calendly.com/samiraomar/30min"
+      });
+
+    };
 
     document.body.appendChild(script);
+
   }
-}
+
+});
 /* =========================
    ACTIVE NAV ON SCROLL
 ========================= */

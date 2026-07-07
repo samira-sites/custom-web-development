@@ -106,7 +106,6 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
     ?>
     <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
     <link rel="preconnect" href="https://calendly.com">
-    <script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
   <?php endif; ?>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
