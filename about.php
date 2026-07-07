@@ -444,7 +444,7 @@ $pageOgAlt = "About Samira Omar";
       <p>Got a project in mind? Let's talk.</p>
 
       <div class="hero-buttons reveal" style="display: flex; justify-content: center;">
-        <a href="index.php#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="index.php#contact" class="btn btn-primary">Let's Work Together</a>
       </div>
     </div>
   </section>
