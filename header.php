@@ -99,15 +99,15 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
 
   <!-- Performance: Preconnect -->
   <!-- Calendly -->
-<?php
-$currentPage = basename($_SERVER['PHP_SELF']);
+  <?php
+  $currentPage = basename($_SERVER['PHP_SELF']);
 
-if (in_array($currentPage, ['index.php', 'about.php'])):
-?>
-  <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
-  <link rel="preconnect" href="https://calendly.com">
-  <script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
-<?php endif; ?>
+  if (in_array($currentPage, ['index.php', 'about.php'])):
+    ?>
+    <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
+    <link rel="preconnect" href="https://calendly.com">
+    <script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
+  <?php endif; ?>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -117,10 +117,8 @@ if (in_array($currentPage, ['index.php', 'about.php'])):
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- JavaScript -->
-  <script src="/js/script.js" defer>
-     src="https://assets.calendly.com/assets/external/widget.js"
-     defer>
-  </script>
+  <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+  <script src="/js/script.js" defer></script>
 </head>
 
 <body>
