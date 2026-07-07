@@ -7,6 +7,11 @@ $pageOgImage = $pageOgImage ?? "https://samiraomar.com/assets/images/preview.web
 $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
 ?>
 
+<!-- Performance -->
+<?php if (basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
+<link rel="preload" href="/assets/images/hero-image.webp" as="image">
+<?php endif; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,9 +95,6 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- Performance -->
-  <link rel="preload" as="image" href="/assets/images/hero-image.webp">
-
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 
@@ -100,7 +102,7 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="js/script.js" defer></script>
+  <script src="/js/script.js" defer></script>
 </head>
 
 <body>
@@ -109,7 +111,7 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
     <nav class="navbar container">
 
       <a href="#hero" class="brand">
-        <img src="assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
+        <img src="/assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
         <span class="brand-name">sam<span style="color: #fff;">ira</span>omar</span>
 
       </a>
