@@ -11,6 +11,12 @@ ServerSignature Off
 # Enable rewrite engine
 RewriteEngine On
 
+# Pretty URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^about/?$ about.php [L]
+
 
 # ==================================================
 # Force HTTPS
