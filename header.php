@@ -117,7 +117,6 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- JavaScript -->
-  <script src="https://assets.calendly.com/assets/external/widget.js"></script>
   <script src="/js/script.js" defer></script>
 </head>
 
