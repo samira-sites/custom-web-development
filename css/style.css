@@ -116,7 +116,7 @@ ul {
   color: var(--white);
   border: 1px solid var(--accent);
   background: var(--black);
-  border: 1px solid var(--accent) !important;
+  border: 1px solid #fe8d1471;
   padding: 7px 1.2rem !important;
 }
 
