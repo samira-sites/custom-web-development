@@ -11,19 +11,19 @@
     </p>
   </div>
 
-  <!-- Navigation -->
-  <div class="footer-nav">
-    <h3 class="reveal">Quick Links</h3>
-    <ul class="footer-links">
-      <li class="reveal"><a href="#hero">Home</a></li>
-      <li class="reveal"><a href="about.php#about">About</a></li>
-      <li class="reveal"><a href="#services">Services</a></li>
-      <li class="reveal"><a href="#projects">Projects</a></li>
-      <li class="reveal"><a href="#process">Process</a></li>
-      <li class="reveal"><a href="#faq">FAQs</a></li>
-      <li class="reveal"><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
+<!-- Navigation -->
+<div class="footer-nav">
+  <h3 class="reveal">Quick Links</h3>
+  <ul class="footer-links">
+    <li class="reveal"><a href="/">Home</a></li>
+    <li class="reveal"><a href="/about">About</a></li>
+    <li class="reveal"><a href="/#services">Services</a></li>
+    <li class="reveal"><a href="/#projects">Projects</a></li>
+    <li class="reveal"><a href="/#process">Process</a></li>
+    <li class="reveal"><a href="/#faq">FAQs</a></li>
+    <li class="reveal"><a href="/#contact">Contact</a></li>
+  </ul>
+</div>
 
   <!-- Contact -->
   <div class="footer-contact">

@@ -44,8 +44,8 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle) ?>">
-<meta name="twitter:description" content="<?= htmlspecialchars($pageDescription) ?>">
-<meta name="twitter:image" content="<?= htmlspecialchars($pageOgImage) ?>">
+  <meta name="twitter:description" content="<?= htmlspecialchars($pageDescription) ?>">
+  <meta name="twitter:image" content="<?= htmlspecialchars($pageOgImage) ?>">
   <meta name="twitter:site" content="Sam_dev88">
 
   <!-- Structured Data -->
@@ -121,13 +121,13 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
       </div>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="index.php#hero" class="active">Home</a></li>
-        <li><a href="about.php#about" class="active">About</a></li>
-        <li><a href="index.php#services">Services</a></li>
-        <li><a href="index.php#projects">Projects</a></li>
-        <li><a href="index.php#process">Process</a></li>
-        <li><a href="index.php#faq">FAQs</a></li>
-        <li><a href="index.php#contact" class="btn btn-secondary">Contact</a></li>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#process">Process</a></li>
+        <li><a href="/#faq">FAQs</a></li>
+        <li><a href="/#contact" class="btn btn-secondary">Contact</a></li>
       </ul>
 
     </nav>

@@ -16,6 +16,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^about/?$ about.php [L]
+RewriteRule ^about/?$ about.php [L]
+RewriteRule ^services/?$ services.php [L]
+RewriteRule ^projects/?$ projects.php [L]
+RewriteRule ^contact/?$ contact.php [L]
 
 
 # ==================================================
