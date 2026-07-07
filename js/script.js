@@ -246,3 +246,11 @@ if (backToTopBtn) {
 
 }
 });
+
+// Load Tidio after 5 seconds
+setTimeout(function () {
+  const script = document.createElement("script");
+  script.src = "https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js";
+  script.async = true;
+  document.body.appendChild(script);
+}, 5000);
