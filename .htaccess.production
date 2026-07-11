@@ -1,20 +1,18 @@
 # ==================================================
-# Production .htaccess - samiraomar.com
+# Production (.htaccess.production)
 # ==================================================
 
-# Disable directory browsing
 Options -Indexes
-
-# Hide server information
 ServerSignature Off
 
-# Enable rewrite engine
 RewriteEngine On
 
+# ==================================================
 # Pretty URLs
+# ==================================================
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteRule ^about/?$ about.php [L]
 
 # ==================================================
@@ -24,14 +22,12 @@ RewriteRule ^about/?$ about.php [L]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-
 # ==================================================
-# Custom 404 Page and 403
+# Error Pages
 # ==================================================
 
 ErrorDocument 404 /404.php
 ErrorDocument 403 /403.php
-
 
 # ==================================================
 # Protect Sensitive Files
@@ -41,10 +37,7 @@ ErrorDocument 403 /403.php
     Require all denied
 </FilesMatch>
 
-
-# Block hidden files (.git, .env, etc.)
 RedirectMatch 403 /\..*$
-
 
 # ==================================================
 # Security Headers
@@ -53,15 +46,15 @@ RedirectMatch 403 /\..*$
 <IfModule mod_headers.c>
 
 Header always set X-Content-Type-Options "nosniff"
-
 Header always set X-Frame-Options "SAMEORIGIN"
-
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
-
 Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
 
-</IfModule>
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://code.tidio.co https://assets.calendly.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://assets.calendly.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://code.tidio.co; img-src 'self' data: https:; connect-src 'self' https://*.tidio.co wss://*.tidio.co https://*.calendly.com; frame-src 'self' https://*.calendly.com; frame-ancestors 'self'; media-src 'self' https://code.tidio.co;"
+
+</IfModule>
 
 # ==================================================
 # Browser Cache
@@ -72,23 +65,16 @@ Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
 ExpiresActive On
 
 ExpiresByType text/css "access plus 1 month"
-
 ExpiresByType application/javascript "access plus 1 month"
-
 ExpiresByType image/jpeg "access plus 1 year"
-
 ExpiresByType image/png "access plus 1 year"
-
 ExpiresByType image/webp "access plus 1 year"
-
 ExpiresByType image/svg+xml "access plus 1 year"
-
 ExpiresByType font/woff2 "access plus 1 year"
 
 ExpiresDefault "access plus 7 days"
 
 </IfModule>
-
 
 # ==================================================
 # Gzip Compression
@@ -99,30 +85,3 @@ ExpiresDefault "access plus 7 days"
 AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml
 
 </IfModule>
-
-# ==================================================
-# Security Headers
-# ==================================================
-
-Header always set X-Content-Type-Options "nosniff"
-
-Header always set X-Frame-Options "SAMEORIGIN"
-
-Header always set Referrer-Policy "strict-origin-when-cross-origin"
-
-Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-
-Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-
-
-Header always set Content-Security-Policy "
-default-src 'self';
-script-src 'self' https://cdnjs.cloudflare.com https://code.tidio.co https://assets.calendly.com;
-style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://assets.calendly.com;
-font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://code.tidio.co;
-img-src 'self' data: https:;
-connect-src 'self' https://*.tidio.co wss://*.tidio.co https://*.calendly.com;
-frame-src 'self' https://*.calendly.com;
-frame-ancestors 'self';
-media-src 'self' https://code.tidio.co;
-"

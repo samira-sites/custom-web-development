@@ -9,340 +9,357 @@ $pageOgAlt = "About Samira Omar";
 
 <?php include 'header.php'; ?>
 <style>
-  :root {
-    --orange: #fe8d14;
-    --orange-dark: #e67700;
-    --ink: #1c1c1e;
-    --gray: #5b5f66;
-    --line: #e9e7e2;
-    --cream: #fbfaf8;
-  }
+:root {
+  --black: #000;
+  --white: #fff;
+  --accent: #fe8d14;
+  --border: rgba(255, 255, 255, 0.1);
+  --muted: rgba(255, 255, 255, 0.72);
+  --radius: 5px;
+  --transition: 0.3s ease;
+}
 
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    color: var(--ink);
-    background: #fff;
-    line-height: 1.6;
-  }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--white);
+  background: var(--black);
+  line-height: 1.6;
+}
 
-  img {
-    max-width: 100%;
-    display: block;
-    border-radius: 10px;
-  }
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: var(--radius);
+}
 
-  .wrap {
-    max-width: 1040px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
 
-  .label {
-    text-align: center;
-    font-size: 11px;
-    letter-spacing: .12em;
-    text-transform: uppercase;
-    color: var(--orange-dark);
-    background: #fff3e6;
-    border: 1px solid #ffd9a8;
-    border-radius: 20px;
-    padding: 4px 14px;
-    display: inline-block;
-    margin-bottom: 14px;
-    margin: 2rem;
-  }
+/* LABEL */
+.label {
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(254,141,20,.12);
+  border: 1px solid rgba(254,141,20,.35);
+  border-radius: 20px;
+  padding: 4px 14px;
+  display: inline-block;
+  margin: 2rem;
+}
 
-  .about-hero {
-    padding: 64px 24px 48px;
-    text-align: center;
-    background: linear-gradient(180deg, #fff8f0 0%, #fff 100%);
-    border-bottom: 1px solid var(--line);
-    min-height: 100vh;
-  }
+/* HERO */
+.about-hero {
+  padding: 64px 24px 48px;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, rgba(254,141,20,.12), transparent 45%),
+    var(--black);
+  border-bottom: 1px solid var(--border);
+  min-height: 100vh;
+}
 
-  .about-hero h1 {
-    font-size: clamp(32px, 4vw, 58px);
-    margin: 6px 0 14px;
-    letter-spacing: -0.02em;
-  }
+.about-hero h1 {
+  font-size: clamp(32px,4vw,58px);
+  margin: 6px 0 14px;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
 
-  .about-hero h1 span {
-    color: var(--orange);
-  }
+.about-hero h1 span {
+  color: var(--accent);
+}
 
-  .about-hero p {
-    max-width: 560px;
-    margin: 0 auto;
-    color: var(--gray);
-    font-size: 17px;
-  }
+.about-hero p {
+  max-width: 560px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 17px;
+}
 
-  /* STORY SECTION */
-  .story-section {
-    padding: 64px 0;
-    border-bottom: 1px solid var(--line);
-  }
+/* STORY SECTION */
+.story-section {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--border);
+}
 
-  .story-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
-    align-items: center;
-  }
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
 
-  .photo-pair {
-    display: flex;
-    gap: 14px;
-  }
+.photo-pair {
+  display: flex;
+  gap: 14px;
+}
 
-  .photo-box {
-    flex: 1;
-    aspect-ratio: 3/4;
-    overflow: hidden;
-    border-radius: 10px;
-    border: 1px solid var(--line);
-    background: #f1efe9;
-    box-shadow: 0 6px 16px rgba(254, 141, 20, 0.084),
-      0 2px 6px rgba(0, 0, 0, 0.406);
-    transition: box-shadow 0.3s ease, transform 0.5s ease;
-  }
+.photo-box {
+  flex: 1;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #111;
+  box-shadow: 0 6px 20px rgba(0,0,0,.5);
+  transition: var(--transition);
+}
 
-  .photo-box:hover {
-    transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 12px 28px rgba(254, 141, 20, 0.18),
-      0 4px 10px rgba(0, 0, 0, 0.096);
-  }
+.photo-box:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: rgba(254,141,20,.5);
+}
 
-  .photo-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
 
-  .caption {
-    text-align: center;
-    font-size: 13px;
-    color: var(--gray);
-    font-style: italic;
-    margin-top: 10px;
-  }
+.caption {
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 10px;
+}
 
-  .story-text h2 {
-    font-size: 26px;
-    margin-top: 0;
-    margin-bottom: 16px;
-  }
+.story-text h2 {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--white);
+}
 
-  .story-text p {
-    color: var(--gray);
-    font-size: 15.5px;
+.story-text p {
+  color: var(--muted);
+  font-size: 15.5px;
   margin: 0 0 12px;
-  }
+}
 
-  .speech-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 14px;
-    color: var(--orange-dark);
-    font-weight: 600;
-    font-size: 14.5px;
-    text-decoration: none;
-    border-bottom: 1px solid var(--orange);
-    padding-bottom: 2px;
-  }
+.speech-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 14.5px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+  transition: var(--transition);
+}
 
-  .speech-link:hover {
-    color: var(--ink);
-    border-color: var(--ink);
-  }
+.speech-link:hover {
+  color: var(--white);
+  border-color: var(--white);
+}
 
-  /* DIFFERENT SECTION */
-  .different {
-    padding: 56px 0;
-    text-align: center;
-    background: var(--cream);
-    border-bottom: 1px solid var(--line);
-  }
+/* DIFFERENT SECTION */
+.different {
+  padding: 56px 0;
+  text-align: center;
+  background: #0a0a0a;
+  border-bottom: 1px solid var(--border);
+}
 
-  .different .wrap {
-    max-width: 680px;
-  }
+.different .wrap {
+  max-width: 680px;
+}
 
-  .different h2 {
-    font-size: 24px;
-    margin-bottom: 14px;
-  }
+.different h2 {
+  font-size: 24px;
+  margin-bottom: 14px;
+  color: var(--white);
+}
 
-  .different p {
-    color: var(--gray);
-    font-size: 15.5px;
-  }
+.different p {
+  color: var(--muted);
+  font-size: 15.5px;
+}
 
-  /* APPROACH SECTION */
-  .approach {
-    padding: 64px 0;
-    border-bottom: 1px solid var(--line);
-  }
+.approach {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--border);
+}
 
-  .approach h2 {
-    text-align: center;
-    font-size: 26px;
-    margin-bottom: 36px;
+.approach h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 36px;
+  color: var(--white);
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.approach-item {
+  display: flex;
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #0d0d0d;
+  transition: var(--transition);
+}
+
+.approach-item:hover {
+  border-color: rgba(254,141,20,.4);
+  transform: translateY(-3px);
+}
+
+.approach-item .check {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.approach-item p {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--white);
+}
+
+/* BASED IN KUWAIT */
+.location {
+  padding: 48px 0;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.location h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--accent);
+}
+
+.location p {
+  max-width: 520px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+/* TRUST LINE */
+.trust-line {
+  padding: 32px 24px;
+  text-align: center;
+  background: #111;
+  border-bottom: 1px solid var(--border);
+}
+
+.trust-line p {
+  margin: 0 auto;
+  font-size: 15px;
+  color: var(--white);
+  font-weight: 500;
+  max-width: 480px;
+}
+
+.trust-line p::before {
+  content: "✓ ";
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* CTA */
+.about-cta {
+  padding: 64px 24px;
+  text-align: center;
+  background: var(--white);
+  color: var(--black);
+}
+
+.about-cta h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: var(--black);
+}
+
+.about-cta p {
+  color: rgba(0,0,0,.65);
+  margin-bottom: 26px;
+}
+
+/* BUTTON */
+.btn {
+  padding: 14px 32px;
+  border-radius: var(--radius);
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--black);
+}
+
+.btn-primary:hover {
+  background: #ff9d32;
+  transform: translateY(-2px);
+}
+
+/* MOBILE */
+@media (max-width:720px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
   }
 
   .approach-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    max-width: 760px;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
   }
 
-  .approach-item {
-    display: flex;
-    gap: 12px;
-    padding: 18px;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: #fff;
+  .about-hero {
+    padding: 7rem 1rem;
   }
 
-  .approach-item .check {
-    color: var(--orange);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.4;
+  main p {
+    text-align: justify;
   }
 
-  .approach-item p {
-    margin: 0;
-    font-size: 14.5px;
-    color: var(--ink);
-  }
-
-  /* BASED IN KUWAIT */
-  .location {
-    padding: 48px 0;
+  .story-text h2 {
     text-align: center;
-    border-bottom: 1px solid var(--line);
   }
-
-  .location h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: var(--orange-dark);
-  }
-
-  .location p {
-    max-width: 520px;
-    margin: 0 auto;
-    color: var(--gray);
-    font-size: 15px;
-  }
-
-  /* TRUST LINE */
-  .trust-line {
-    padding: 32px 24px;
-    text-align: center;
-    background: #fff8f0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .trust-line p {
-    margin: 0;
-    font-size: 15px;
-    color: var(--ink);
-    font-weight: 500;
-    max-width: 480px;
-    margin: 0 auto;
-  }
-
-  .trust-line p::before {
-    content: "✓ ";
-    color: var(--orange);
-    font-weight: 700;
-  }
-
-  /* CTA */
-  .about-cta {
-    padding: 64px 24px;
-    text-align: center;
-    background: var(--ink);
-    color: #fff;
-  }
-
-  .about-cta h2 {
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-
-  .about-cta p {
-    color: #cfcfcf;
-    margin-bottom: 26px;
-  }
-
-  .btn {
-    padding: 14px 32px;
-    border-radius: 8px;
-    font-weight: 700;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .btn-primary {
-    background: var(--orange);
-    color: #1c1c1e;
-  }
-
-  .btn-primary:hover {
-    background: var(--orange-dark);
-  }
-
-  /* mobile */
-  @media (max-width:720px) {
-    .story-grid {
-      grid-template-columns: 1fr;
-      gap: 28px;
-    }
-
-    .approach-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .about-hero {
-      padding: 7rem 1rem;
-    }
-
-    main p {
-      text-align: justify;
-    }
-
-    .story-text h2 {
-      text-align: center;
-    }
-  }
-
-  #back-to-top {
-    background: var(--orange-dark)
-    
-  }
-  #back-to-top:hover{
-    background: var(--orange);
-  }
-  #back-to-top svg {
-  stroke: var(--line);
 }
 
+/* BACK TO TOP */
+#back-to-top {
+  background: var(--accent);
+  transition: var(--transition);
+}
+
+#back-to-top:hover {
+  background: var(--white);
+}
+
+#back-to-top svg {
+  stroke: var(--black);
+}
 </style>
 </head>
 
@@ -375,7 +392,8 @@ $pageOgAlt = "About Samira Omar";
         </div>
         <div class="story-text reveal">
           <h2 class="reveal">My Journey</h2>
-          <p>I'm Samira Omar, I started my career as an overseas Filipino worker, and along the way I made the decision to
+          <p>I'm Samira Omar, I started my career as an overseas Filipino worker, and along the way I made the decision
+            to
             build a future in tech. While working full-time, I completed a UK Diploma in Information Technology
             — studying late nights with a clear goal in mind.</p>
 
@@ -444,13 +462,13 @@ $pageOgAlt = "About Samira Omar";
       <p>Got a project in mind? Let's talk.</p>
 
       <div class="hero-buttons reveal" style="display: flex; justify-content: center;">
-        <a href="index.php#contact" class="btn btn-primary">Let's Work Together</a>
+        <a href="index.php#contact" class="btn btn-primary reveal-left">Let's Work Together</a>
       </div>
     </div>
   </section>
 
   <button id="back-to-top" aria-label="Back to top">
-<svg viewBox="0 0 24 24">
-  <polyline points="18 15 12 9 6 15" />
-</svg>
-</button>
+    <svg viewBox="0 0 24 24">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
