@@ -93,7 +93,6 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- Performance: Preconnect -->
   <!-- Calendly -->
   <?php
   $currentPage = basename($_SERVER['PHP_SELF']);
