@@ -82,16 +82,12 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
       </script>
 
   <!-- Favicons -->
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon_32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon_192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon_512.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/icon_180.png">
-
-  <!-- PWA -->
-  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/assets/icons/my-favicon/favicon-96x96.png?v=20260711" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/icons/my-favicon/favicon.svg?v=20260711" />
+<link rel="shortcut icon" href="/assets/icons/my-favicon/favicon.ico?v=20260711" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/my-favicon/apple-touch-icon.png?v=20260711" />
+<meta name="apple-mobile-web-app-title" content="Samira Omar" />
+<link rel="manifest" href="/assets/icons/my-favicon/site.webmanifest?v=20260711" />
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
