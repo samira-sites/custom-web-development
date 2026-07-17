@@ -331,6 +331,15 @@ ul {
   font-size: clamp(2.2rem, 5vw, 4.2rem);
   line-height: 1.1;
   margin: 1rem 0;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #d9d9d9 73%,
+    #fe8d14 100%
+);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 /* DESCRIPTION */
