@@ -285,8 +285,12 @@ img {
 .about-cta {
   padding: 64px 24px;
   text-align: center;
-  background: var(--white);
-  color: var(--black);
+  background: #222;
+  border-radius: 20px;
+  color: #fff;
+  padding: 1rem 1rem 0px;
+  margin-top: 80px;
+  margin: 0 1rem;
 }
 
 .about-cta h2 {
