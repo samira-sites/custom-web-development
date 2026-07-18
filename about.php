@@ -458,20 +458,5 @@ img {
     </section>
 
   </main>
-  <!-- ============ CTA (uses your existing site-wide Calendly script) ============ -->
-  <section class="about-cta reveal">
-    <div class="wrap">
-      <h2>Let's build something that actually works for your business.</h2>
-      <p>Got a project in mind? Let's talk.</p>
 
-      <div class="hero-buttons reveal" style="display: flex; justify-content: center;">
-        <a href="index.php#contact" class="btn btn-primary reveal-left">Let's Work Together</a>
-      </div>
-    </div>
-  </section>
-
-  <button id="back-to-top" aria-label="Back to top">
-    <svg viewBox="0 0 24 24">
-      <polyline points="18 15 12 9 6 15" />
-    </svg>
-  </button>
+  <?php include 'footer.php'; ?>
