@@ -114,9 +114,8 @@ ul {
 .btn-secondary {
   background: transparent;
   color: var(--white);
-  border: 1px solid var(--accent);
   background: var(--black);
-  border: 1px solid #fe8d1471;
+  border: 1px solid #fe8d1471 !important;
   padding: 7px 1.2rem !important;
 }
 
