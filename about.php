@@ -289,7 +289,7 @@ img {
   color: #fff;
   padding: 1rem 1rem 0px;
   margin-top: 80px;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .about-cta h2 {
