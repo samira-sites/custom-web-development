@@ -120,7 +120,7 @@ $pageOgAlt = $pageOgAlt ?? "Samira Omar website preview";
     <nav class="navbar container">
 
       <a href="#hero" class="brand">
-        <img src="assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
+        <img src="/assets/images/navlogo.webp" class="navlogo" alt="Samira Omar logo" />
         <span class="brand-name">sam<span style="color: #fff;">ira</span>omar</span>
 
       </a>

@@ -451,12 +451,6 @@ img {
       </div>
     </section>
 
-    <!-- ============ TRUST LINE ============ -->
-    <section class="trust-line">
-      <p class="reveal">Every project comes with a clear timeline agreed upfront — so you’ll always know exactly what to
-        expect from the start to the final launch.</p>
-    </section>
-
   </main>
 
   <?php include 'footer.php'; ?>
