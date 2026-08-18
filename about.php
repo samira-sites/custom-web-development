@@ -239,26 +239,6 @@ img {
   color: var(--white);
 }
 
-/* BASED IN KUWAIT */
-.location {
-  padding: 48px 0;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-}
-
-.location h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: var(--accent);
-}
-
-.location p {
-  max-width: 520px;
-  margin: 0 auto;
-  color: var(--muted);
-  font-size: 15px;
-}
-
 /* TRUST LINE */
 .trust-line {
   padding: 32px 24px;
@@ -439,17 +419,6 @@ img {
       </div>
     </section>
 
-    <!-- ============ LOCATION ============ -->
-    <section class="location">
-      <div class="wrap reveal">
-        <h3>Based in Kuwait</h3>
-        <p>
-          I work with clients locally and internationally — from small business owners to startups and personal brands —
-          helping them stand out online with websites designed to build trust, generate leads, and support business
-          growth.
-        </p>
-      </div>
-    </section>
 
   </main>
 
